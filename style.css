@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 1100px;
 }
 
 .header {
@@ -40,6 +41,62 @@ body {
   width: 100%;
 }
 
+.sidebar {
+  width: 160px;
+  padding: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.feature {
+  width: 800px;
+  display: inline-block;
+  float: left;
+}
+
+.title {
+  font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 49px;
+}
+
+.feature__block {
+  width: 250px;
+  display: inline;
+  float: left;
+  height: 220px;
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.feature__title {
+  text-align: center;
+}
+
+.feature__text {
+  text-align: center;
+}
+
+
+
+.news {
+  display: block;
+  margin-left: 18%;
+  clear: both;
+}
+
+.news__item {
+list-style: none;
+border-bottom: 2px solid #f5f5f5;
+
+}
+
+.news__img {
+  display: inline;
+}
+
+.news__desc {
+  display: inline;
+}
 
 @font-face {
   font-family: 'GothaProBol'; 
