@@ -1,7 +1,43 @@
+@font-face {
+  font-family: 'GothaPro'; 
+  src: url('fonts/GothaProBol.woff') format('woff.');
+  src: url('fonts/GothaProBol.woff2') format('woff2.');
+  font-weight: 700;
+  font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'GothaPro'; 
+  src: url('fonts/GothaProLig.woff') format('woff.'); 
+  src: url('fonts/GothaProLig.woff2') format('woff2.'); 
+  font-weight: 500;
+  font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'GothaPro'; 
+  src: url('fonts/GothaProLigIta.woff') format('woff.'); 
+  src: url('fonts/GothaProLigIta.woff2') format('woff2.'); 
+  font-weight: 500;
+  font-style: italic;
+ }
+
 body {
   margin: 0;
   padding: 0;
   width: 1100px;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
 }
 
 .header {
@@ -265,16 +301,25 @@ width: 60%;
 }
 
 @font-face {
-  font-family: 'GothaProBol'; 
-  src: url('Fonts/GothaProBol.otf') format('ttf.'); 
+  font-family: 'GothaPro'; 
+  src: url('fonts/GothaProBol.woff') format('woff.');
+  src: url('fonts/GothaProBol.woff2') format('woff2.');
+  font-weight: 700;
+  font-style: normal;
  }
 
  @font-face {
-  font-family: 'GothaProLig'; 
-  src: url('Fonts/GothaProLig.otf') format('ttf.'); 
+  font-family: 'GothaPro'; 
+  src: url('fonts/GothaProLig.woff') format('woff.'); 
+  src: url('fonts/GothaProLig.woff2') format('woff2.'); 
+  font-weight: 500;
+  font-style: normal;
  }
 
  @font-face {
-  font-family: 'GothaProLigIta'; 
-  src: url('Fonts/GothaProLigIta.otf') format('ttf.'); 
+  font-family: 'GothaPro'; 
+  src: url('fonts/GothaProLigIta.woff') format('woff.'); 
+  src: url('fonts/GothaProLigIta.woff2') format('woff2.'); 
+  font-weight: 500;
+  font-style: italic;
  }
