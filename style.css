@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'GothaPro'; 
-  src: url('fonts/GothaProBol.woff') format('woff.');
-  src: url('fonts/GothaProBol.woff2') format('woff2.');
+  font-family: 'GothaProBol';
+  src: url('fonts/GothaProBol.woff') format('woff'),
+    url('fonts/GothaProBol.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
- }
+}
 
- @font-face {
-  font-family: 'GothaPro'; 
-  src: url('fonts/GothaProLig.woff') format('woff.'); 
-  src: url('fonts/GothaProLig.woff2') format('woff2.'); 
+@font-face {
+  font-family: 'GothaProLig';
+  src: url('fonts/GothaProLig.woff') format('woff'),
+    url('fonts/GothaProLig.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
- }
+}
 
- @font-face {
-  font-family: 'GothaPro'; 
-  src: url('fonts/GothaProLigIta.woff') format('woff.'); 
-  src: url('fonts/GothaProLigIta.woff2') format('woff2.'); 
+@font-face {
+  font-family: 'GothaProLigIta';
+  src: url('fonts/GothaProLigIta.woff') format('woff'),
+    url('fonts/GothaProLigIta.woff2') format('woff2');
   font-weight: 500;
   font-style: italic;
- }
+}
 
 body {
   margin: 0;
@@ -55,8 +55,11 @@ a {
 .header__tel {
   text-decoration: none;
   color: #ffffff;
-  font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: GothaProBol, 'Trebuchet MS', sans-serif;
   font-size: 21px;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .header__worktime {
@@ -81,13 +84,13 @@ a {
 }
 
 .menu__item {
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .menu__text {
-  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 17px;
-  color:#ec1e79;
+  color: #ec1e79;
   text-decoration: none;
   margin-left: 10px;
 }
@@ -100,6 +103,7 @@ a {
 .feature {
   width: 800px;
   float: left;
+  margin-bottom: 85px;
 }
 
 .title {
@@ -133,7 +137,8 @@ a {
 }
 
 .feature__header {
-  font-size: 17px;
+  font-size: 15px;
+  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
 }
 
 .feature__text {
@@ -145,7 +150,7 @@ a {
 }
 
 .feature__item {
-  color: #ec1e79; 
+  color: #ec1e79;
 }
 
 .feature__item span {
@@ -165,13 +170,13 @@ a {
 }
 
 .news__list {
-padding: 0;
+  padding: 0;
 }
 
 .news__item {
-list-style: none;
-border-bottom: 2px solid #f5f5f5;
-margin-bottom: 30px;
+  list-style: none;
+  border-bottom: 2px solid #f5f5f5;
+  margin-bottom: 30px;
 }
 
 .news__img {
@@ -189,24 +194,26 @@ margin-bottom: 30px;
 
 .news__name {
   margin: 10px 0;
+  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
 }
 
 .news__description {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .date {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 12px; 
+  font-size: 12px;
   color: #989898;
 }
 
 .pagination {
-display: block;
+  display: block;
 }
 
-.pagination__controls, .pagination__pages-link {
+.pagination__controls,
+.pagination__pages-link {
   display: inline-block;
 }
 
@@ -215,7 +222,7 @@ display: block;
 }
 
 .pagination__controls {
-width: 60%;
+  width: 60%;
 }
 
 .pagination__pages-item {
@@ -291,26 +298,3 @@ width: 60%;
   margin: 5px;
 }
 
-@font-face {
-  font-family: 'GothaPro'; 
-  src: url('fonts/GothaProBol.woff') format('woff.');
-  src: url('fonts/GothaProBol.woff2') format('woff2.');
-  font-weight: 700;
-  font-style: normal;
- }
-
- @font-face {
-  font-family: 'GothaPro'; 
-  src: url('fonts/GothaProLig.woff') format('woff.'); 
-  src: url('fonts/GothaProLig.woff2') format('woff2.'); 
-  font-weight: 500;
-  font-style: normal;
- }
-
- @font-face {
-  font-family: 'GothaPro'; 
-  src: url('fonts/GothaProLigIta.woff') format('woff.'); 
-  src: url('fonts/GothaProLigIta.woff2') format('woff2.'); 
-  font-weight: 500;
-  font-style: italic;
- }
