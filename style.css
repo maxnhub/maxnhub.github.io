@@ -28,16 +28,8 @@ body {
   width: 1100px;
 }
 
-ul {
-  padding: 0;
-}
-
 a {
   text-decoration: 0;
-}
-
-h1, h2, h3, h4 {
-  margin: 0;
 }
 
 .header {
@@ -116,8 +108,7 @@ h1, h2, h3, h4 {
 }
 
 .feature__block {
-  width: 250px;
-  display: inline;
+  width: 240px;
   float: left;
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
