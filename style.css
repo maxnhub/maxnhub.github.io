@@ -1,0 +1,14 @@
+@font-face {
+  font-family: GothaProBol; 
+  src: url(Gonts/GothaProBol.ttf); 
+ }
+
+ @font-face {
+  font-family: GothaProLig; 
+  src: url(Gonts/GothaProLig.ttf); 
+ }
+
+ @font-face {
+  font-family: GothaProLigIta; 
+  src: url(Gonts/GothaProLigIta.ttf); 
+ }
