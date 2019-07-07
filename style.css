@@ -66,9 +66,16 @@ a {
 }
 
 .header__worktime {
+  display: block;
   color: #b12167;
   font-family: 'GothaProLig', "Trebuchet MS", sans-serif;
   font-size: 14px;
+  border-bottom: 2px solid #b12167;
+  border-top: 2px solid #27273e;
+  border-left: 2px solid #27273e;
+  border-right: 2px solid #27273e;
+  background-color: #27273e;
+  margin-left: 50px;
 }
 
 .banner__img {
