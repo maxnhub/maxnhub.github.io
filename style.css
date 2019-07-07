@@ -82,7 +82,9 @@ a {
   margin-left: 60px;
 }
 
-.banner__img {
+.banner {
+  background-color: #27273e;
+  height: 367px;
   width: 100%;
 }
 
