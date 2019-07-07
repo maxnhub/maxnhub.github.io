@@ -36,6 +36,8 @@ a {
   margin: 0 auto;
 }
 
+
+
 .header {
   background-color: #27273e;
   width: 100%;
@@ -252,7 +254,7 @@ a {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: bottom;
 }
 
 .footer__author {
@@ -280,10 +282,14 @@ a {
   /*
  /*
   content: '';*/
+  position: absolute;
+  margin-left: 50%;
+ 
 }
 
 .footer__socials {
  /*display: inline-block;
+ 
   /*
   position: absolute;
   top: 15px;
@@ -296,6 +302,7 @@ a {
   margin: 0;
   color: white;
   margin-bottom: 5px;
+  
 }
 
 .footer__socials-link {
