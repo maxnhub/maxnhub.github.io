@@ -235,7 +235,11 @@ a {
 }
 
 .pagination {
-  display: block;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 70px;
+
 }
 
 .pagination__controls,
@@ -245,6 +249,7 @@ a {
 
 .pagination__display {
   display: inline-block;
+  color: #6f6e6e;
 }
 
 .pagination__controls {
@@ -252,7 +257,7 @@ a {
 }
 
 .pagination__pages-item {
-  display: inline-block;
+  display: inline-block;*/
 }
 
 .pagination__pages-link {
@@ -260,6 +265,7 @@ a {
   color: black;
   font-size: 18px;
   font-weight: bold;
+  padding-right: 20px;
 }
 
 .footer {
