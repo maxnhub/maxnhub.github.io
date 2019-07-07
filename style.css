@@ -76,7 +76,7 @@ a {
 }
 
 .sidebar {
-  width: 160px;
+  width: 162px;
   padding: 20px;
   display: inline-block;
   float: left;
@@ -129,7 +129,25 @@ a {
   display: inline-block;
   width: 70px;
   height: 70px;
-  position: relative;
+}
+
+.menu__icon {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  /*<img src="images/main_icon.png" alt="Иконка Главная">*/
+}
+
+.menu__icon1 {
+  background: url(images/main_icon.png) no-repeat 50% 50%;
+}
+
+.menu__icon2 {
+  background: url(images/wallet_icon.png) no-repeat 50% 50%;
+}
+
+.menu__icon3 {
+  background: url(images/feed_icon.png) no-repeat 50% 50%;
 }
 
 .feature__logo1 {
