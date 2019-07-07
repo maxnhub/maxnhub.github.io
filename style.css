@@ -103,10 +103,30 @@ a {
   border-bottom: 1px solid gray;
 }
 
+.menu__icon {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  /*<img src="images/main_icon.png" alt="Иконка Главная">*/
+}
+
+.menu__icon1 {
+  background: url(images/main_icon.png) no-repeat 50% 50%;
+}
+
+.menu__icon2 {
+  background: url(images/wallet_icon.png) no-repeat 50% 50%;
+}
+
+.menu__icon3 {
+  background: url(images/feed_icon.png) no-repeat 50% 50%;
+}
+
 .feature {
   width: 800px;
   float: left;
   margin-bottom: 85px;
+  padding-left: 50px;
 }
 
 .title {
@@ -131,24 +151,7 @@ a {
   height: 70px;
 }
 
-.menu__icon {
-  display: inline-block;
-  width: 19px;
-  height: 19px;
-  /*<img src="images/main_icon.png" alt="Иконка Главная">*/
-}
 
-.menu__icon1 {
-  background: url(images/main_icon.png) no-repeat 50% 50%;
-}
-
-.menu__icon2 {
-  background: url(images/wallet_icon.png) no-repeat 50% 50%;
-}
-
-.menu__icon3 {
-  background: url(images/feed_icon.png) no-repeat 50% 50%;
-}
 
 .feature__logo1 {
   background: #27273e url(images/flower.png) no-repeat 50% 50%;
@@ -193,6 +196,7 @@ a {
   display: block;
   margin-left: 18%;
   clear: both;
+  padding-left: 50px;
 }
 
 .news__list {
@@ -252,12 +256,34 @@ a {
   color: #6f6e6e;
 }
 
+.pagination__prev {
+  width: 8px;
+	height: 8px;
+  border-left: 2px solid #bebdbd;
+  border-bottom: 2px solid #bebdbd;
+  transform: rotate(45deg);
+  transform-origin: 0 100%;
+  margin: 0 auto;
+  margin-bottom: 7px;
+}
+
+.pagination__next {
+  width: 8px;
+	height: 8px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  margin: 0 auto; 
+  margin-top: 2px;
+}
+
 .pagination__controls {
-  width: 60%;
+  width: 70%;
 }
 
 .pagination__pages-item {
-  display: inline-block;*/
+  display: inline-block;
 }
 
 .pagination__pages-link {
@@ -280,7 +306,7 @@ a {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: bottom;
+  align-items: baseline;
 }
 
 .footer__author {
@@ -288,6 +314,7 @@ a {
   position: absolute;
   top: 15px;
   left: 20px;*/
+  margin-top: 15px;
 }
 
 .footer__author-text {
@@ -296,10 +323,13 @@ a {
 }
 
 .footer__author-link {
-  border-bottom: 1px solid gray;
   text-decoration: none;
   font-weight: bold;
   color: white;
+}
+
+.schoollink {
+  border-bottom: 1px solid gray;
 }
 
 .footer__logo {
@@ -308,6 +338,7 @@ a {
   /*
  /*
   content: '';*/
+  margin-top: 15px;
   position: absolute;
   margin-left: 50%;
  
@@ -321,7 +352,7 @@ a {
   top: 15px;
   right: 20px;
   text-align: left;*/
-
+  margin-top: 15px;
 }
 
 .footer__socials-text {
