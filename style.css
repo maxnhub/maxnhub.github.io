@@ -363,13 +363,35 @@ a {
 }
 
 .footer__socials-link {
-  background-color: #d4d4d8;
-  border-radius: 50% 50%;
-  text-decoration: none;
   display: inline-block;
-  width: 19px;
-  text-align: center;
-  vertical-align: middle;
+  text-decoration: none;
   margin: 5px;
 }
 
+.footer__socials-img {
+  background-color: #d4d4d8;
+  border-radius: 50% 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__socials-img1 {
+  background: #d4d4d8 url(images/vk.png) no-repeat 50% 50%;
+}
+
+.footer__socials-img2 {
+  background: #d4d4d8 url(images/fb.png) no-repeat 50% 50%;
+}
+
+.footer__socials-img3 {
+  background: #d4d4d8 url(images/google.png) no-repeat 50% 50%;
+}
+
+.footer__socials-img4 {
+  background: #d4d4d8 url(images/twitter.png) no-repeat 50% 50%;
+}
+
+.footer__socials-img5 {
+  background: #d4d4d8 url(images/mail.png) no-repeat 50% 50%;
+}
