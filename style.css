@@ -549,3 +549,55 @@ a {
   margin-bottom: 10px;
 }
 
+.feedback__textarea {
+  padding-top: 20px;
+ 
+}
+
+.feedback__textarea-form {
+  border-top: 2px solid #ec1e79;
+  border-bottom: 2px solid #ec1e79;
+  font-size: 18px;
+}
+
+.feedback__footer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback__footer-check-field-text {
+  margin-block-start: 0;
+}
+
+.feedback__footer-checkbox {
+  display: inline-block;
+}
+
+.feedback__footer-checkbox:active {
+  color: #ec1e79;
+}
+
+.feedback__footer-button-field {
+  padding-right: 20px;
+}
+
+.feedback__footer-button-form {
+  color: white;
+  background-color: #27273e;
+  border-radius: 5px;
+  width: 140px;
+  height: 50px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
