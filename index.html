@@ -12,7 +12,7 @@
   <div class="wrapper">
     <header class="header">
       <div class="container">
-        <a href="/" class="logo header__logo">
+        <a class="logo header__logo">
           <img src="images/logo-fig.png" class="logo__img" alt="Лого">
         </a>
         <div class="header__contacts">
@@ -28,83 +28,83 @@
       </div>
     </div>
 
-    <section class="maincontent">
+    <div class="maincontent">
       <div class="container">
         <aside class="sidebar">
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <div class="menu__icon menu__icon1"></div>
-                <a class="menu__text menu__text-active">ГЛАВНАЯ</a>
+                <a class="menu__text menu__text-active"><span class="menu__icon menu__icon1"></span>ГЛАВНАЯ</a>
               </li>
               <li class="menu__item">
-                  <div class="menu__icon menu__icon2"></div>
-                <a href="#" class="menu__text">ОТЗЫВЫ</a>
+                <a href="#" class="menu__text"><span class="menu__icon menu__icon2"></span>ОТЗЫВЫ</a>
               </li>
               <li class="menu__item">
-                  <div class="menu__icon menu__icon3"></div>
-                <a href="#" class="menu__text">ТАРИФЫ</a>
+                <a href="#" class="menu__text"><span class="menu__icon menu__icon3"></span>ТАРИФЫ</a>
               </li>
             </ul>
           </nav>
         </aside>
-        <div class="feature clearfix">
+        <section class="feature clearfix">
           <h1 class="title">Особенности</h1>
-          <div class="feature__block">
-            <div class="feature__logo feature__logo1">
-            </div>
-            <h4 class="feature__header">УНИКАЛЬНОСТЬ</h4>
-            <p class="feature__text">Создан для вашего комфортного отдыха</p>
-            <ul class="feature__description">
-              <li class="feature__item">
-                <span>Кофе/чай</span>
-              </li>
-              <li class="feature__item">
-                <span>Шкаф (5кг)</span>
-              </li>
-              <li class="feature__item">
-                <span>Рабочее место</span>
-              </li>
-            </ul>
-          </div>
-          <div class="feature__block">
-            <div class="feature__logo feature__logo2">
+          <ul class="feature__list">
+            <li class="feature__block">
+              <div class="feature__logo feature__logo1">
+              </div>
+              <h4 class="feature__header">УНИКАЛЬНОСТЬ</h4>
+              <p class="feature__text">Создан для вашего комфортного отдыха</p>
+              <ul class="feature__description">
+                <li class="feature__item">
+                  <span>Кофе/чай</span>
+                </li>
+                <li class="feature__item">
+                  <span>Шкаф (5кг)</span>
+                </li>
+                <li class="feature__item">
+                  <span>Рабочее место</span>
+                </li>
+              </ul>
+            </li>
+            <li class="feature__block">
+              <div class="feature__logo feature__logo2">
 
-            </div>
-            <h4 class="feature__header">ПРЕМИУМ-КЛАСС</h4>
-            <p class="feature__text">Для любителей хороших впечатлений</p>
-            <ul class="feature__description">
-              <li class="feature__item">
-                <span>Обед+кофе</span>
-              </li>
-              <li class="feature__item">
-                <span>Шкаф (10кг)</span>
-              </li>
-              <li class="feature__item">
-                <span>Детское кресло</span>
-              </li>
-            </ul>
-          </div>
-          <div class="feature__block">
-            <div class="feature__logo feature__logo3">
+              </div>
+              <h4 class="feature__header">ПРЕМИУМ-КЛАСС</h4>
+              <p class="feature__text">Для любителей хороших впечатлений</p>
+              <ul class="feature__description">
+                <li class="feature__item">
+                  <span>Обед+кофе</span>
+                </li>
+                <li class="feature__item">
+                  <span>Шкаф (10кг)</span>
+                </li>
+                <li class="feature__item">
+                  <span>Детское кресло</span>
+                </li>
+              </ul>
+            </li>
+            <li class="feature__block">
+              <div class="feature__logo feature__logo3">
 
-            </div>
-            <h4 class="feature__header">ЛАКШЕРИ СТУЛЬЯ</h4>
-            <p class="feature__text">Всё самое лучшее и незабываемое</p>
-            <ul class="feature__description">
-              <li class="feature__item">
-                <span>Джакузи</span>
-              </li>
-              <li class="feature__item">
-                <span>Шкаф(15кг)</span>
-              </li>
-              <li class="feature__item">
-                <span>Табуретка</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="news">
+              </div>
+              <h4 class="feature__header">ЛАКШЕРИ СТУЛЬЯ</h4>
+              <p class="feature__text">Всё самое лучшее и незабываемое</p>
+              <ul class="feature__description">
+                <li class="feature__item">
+                  <span>Джакузи</span>
+                </li>
+                <li class="feature__item">
+                  <span>Шкаф(15кг)</span>
+                </li>
+                <li class="feature__item">
+                  <span>Табуретка</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </section>
+        <section class="news">
           <h2 class="title">Последние новости</h2>
           <div class="news__block">
             <ul class="news__list">
@@ -151,12 +151,12 @@
           </div>
           <div class="pagination">
             <div class="pagination__display">Страница 1 из 7</div>
-            <div class="pagination__controlls">              
+            <div class="pagination__controlls">
               <ul class="pagination__pages-list">
                 <li class="pagination__pages-item">
-                    <a class="pagination__pages-link">
-                      <div class="pagination__prev"></div>
-                    </a>
+                  <a class="pagination__pages-link">
+                    <div class="pagination__prev"></div>
+                  </a>
                 </li>
                 <li class="pagination__pages-item">
                   <a href="#" class="pagination__pages-link">1</a>
@@ -180,19 +180,19 @@
                   <a href="#" class="pagination__pages-link">7</a>
                 </li>
                 <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">
-                      <div class="pagination__next"></div>
-                    </a>
+                  <a href="#" class="pagination__pages-link">
+                    <div class="pagination__next"></div>
+                  </a>
                 </li>
               </ul>
 
             </div>
           </div>
-        </div>
+        </section>
         <div class="pagination"></div>
       </div>
 
-    </section>
+    </div>
     <footer class="footer">
       <div class="footer__logo">
         <a href="#" class="footer__link">
@@ -202,31 +202,44 @@
       </div>
       <div class="container footer-content">
         <div class="footer__author">
-          <p class="footer__author-text">Сделано с любовью и старанием<br> на курсе "HTML + CSS" в <a href="https://loftschool.com/"
-              class="footer__author-link schoollink">LoftSchool</a>.<br>Автор работы: <a href="https://github.com/maxnhub" class="footer__author-link">Никульников Максим</Автор></p>
+          <p class="footer__author-text">Сделано с любовью и старанием на курсе "HTML + CSS" в <a
+              href="https://loftschool.com/" class="footer__author-link schoollink">LoftSchool</a>.<br>Автор работы: <a
+              href="https://maxnhub.github.io/maxnikulnikov-coworking/" class="footer__author-link">Никульников Максим
+          </a>
+          </p>
         </div>
 
-        <div class="footer__socials">
-          <p class="footer__socials-text">Наши социальные сети</p>
-          <a href="#" class="footer__socials-link">
-            <div class="footer__socials-img footer__socials-img1"></div>
-          </a>
-          <a href="#" class="footer__socials-link">
-            <div class="footer__socials-img footer__socials-img2"></div>
-          </a>
-          <a href="#" class="footer__socials-link">
-            <div class="footer__socials-img footer__socials-img3"></div>
-          </a>
-          <a href="#" class="footer__socials-link">
-            <div class="footer__socials-img footer__socials-img4"></div>
-          </a>
-          <a href="#" class="footer__socials-link">
-            <div class="footer__socials-img footer__socials-img5"></div>
-          </a>
+        <div class="socials">
+          <h5 class="socials__text">Наши социальные сети</h5>
+          <ul class="socials__list">
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <div class="socials-img socials-img1"></div>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <div class="socials-img socials-img2"></div>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <div class="socials-img socials-img3"></div>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <div class="socials-img socials-img4"></div>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a href="#" class="socials__link">
+                <div class="socials-img socials-img5"></div>
+              </a>
+            </li>
+          </ul>
         </div>
-
       </div>
-
     </footer>
   </div>
 

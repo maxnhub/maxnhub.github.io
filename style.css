@@ -74,10 +74,8 @@ a {
   color: #b12167;
   font-family: 'GothaProLig', "Trebuchet MS", sans-serif;
   font-size: 14px;
-  border-bottom: 2px solid #b12167;
-  border-top: 2px solid #27273e;
-  border-left: 2px solid #27273e;
-  border-right: 2px solid #27273e;
+  border: none;
+  text-decoration: underline;
   background-color: #27273e;
   margin-left: 60px;
 }
@@ -89,7 +87,7 @@ a {
 }
 
 .sidebar {
-  width: 162px;
+  width: 180px;
   padding: 20px;
   display: inline-block;
   float: left;
@@ -113,13 +111,13 @@ a {
 
 .menu__text-active {
   color: black;
-  border-bottom: 1px solid gray;
 }
 
 .menu__icon {
   display: inline-block;
   width: 19px;
   height: 19px;
+  margin-right: 20px;
   /*<img src="images/main_icon.png" alt="Иконка Главная">*/
 }
 
@@ -147,6 +145,10 @@ a {
   font-size: 49px;
 }
 
+.feature__list {
+  list-style: none;
+}
+
 .feature__block {
   width: 240px;
   float: left;
@@ -163,7 +165,6 @@ a {
   width: 70px;
   height: 70px;
 }
-
 
 
 .feature__logo1 {
@@ -188,7 +189,7 @@ a {
 }
 
 .feature__description {
-  text-align: left;
+  text-align: left; 
 }
 
 .feature__item {
@@ -328,6 +329,7 @@ a {
   top: 15px;
   left: 20px;*/
   margin-top: 15px;
+  width: 300px;
 }
 
 .footer__author-text {
@@ -357,31 +359,40 @@ a {
  
 }
 
-.footer__socials {
+.socials {
  /*display: inline-block;
  
   /*
   position: absolute;
   top: 15px;
-  right: 20px;
-  text-align: left;*/
+  right: 20px;*/
+  text-align: right;
   margin-top: 15px;
 }
 
-.footer__socials-text {
+.socials__list {
+  list-style: none;
+}
+
+.socials__text {
   margin: 0;
   color: white;
   margin-bottom: 5px;
-  
+  padding-right: 15px;
+  font-size: 15px;
 }
 
-.footer__socials-link {
+.socials__item {
   display: inline-block;
+  padding-right: 15px;
+}
+
+.socials-link {
   text-decoration: none;
   margin: 5px;
 }
 
-.footer__socials-img {
+.socials-img {
   background-color: #d4d4d8;
   border-radius: 50% 50%;
   display: inline-block;
@@ -389,22 +400,22 @@ a {
   height: 20px;
 }
 
-.footer__socials-img1 {
+.socials-img1 {
   background: #d4d4d8 url(images/vk.png) no-repeat 50% 50%;
 }
 
-.footer__socials-img2 {
+.socials-img2 {
   background: #d4d4d8 url(images/fb.png) no-repeat 50% 50%;
 }
 
-.footer__socials-img3 {
+.socials-img3 {
   background: #d4d4d8 url(images/google.png) no-repeat 50% 50%;
 }
 
-.footer__socials-img4 {
+.socials-img4 {
   background: #d4d4d8 url(images/twitter.png) no-repeat 50% 50%;
 }
 
-.footer__socials-img5 {
+.socials-img5 {
   background: #d4d4d8 url(images/mail.png) no-repeat 50% 50%;
 }
