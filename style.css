@@ -312,6 +312,8 @@ a {
 
 .pagination__pages-item {
   display: inline-block;
+  width: 20px;
+  text-align: center;
 }
 
 .pagination__pages-link {
@@ -319,8 +321,19 @@ a {
   color: black;
   font-size: 18px;
   font-weight: bold;
-  padding-right: 20px;
-}
+  margin-right: 10px;
+  margin-left: 5px;
+  }
+
+  .active__page {
+    background-color: #27273e;
+    border-radius: 3px; 
+    color: white;
+  }
+
+  .active__page-link {
+    color: white;
+  }
 
 .footer {
   background-color: #27273e;
@@ -457,5 +470,9 @@ a {
   color: black;
 }
 
+.pagination__comments {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 
