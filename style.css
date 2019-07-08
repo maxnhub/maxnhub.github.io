@@ -190,6 +190,7 @@ a {
 
 .feature__description {
   text-align: left; 
+  list-style-type: disc;
 }
 
 .feature__item {
