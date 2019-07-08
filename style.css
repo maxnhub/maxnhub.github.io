@@ -155,6 +155,7 @@ a {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   text-align: center;
+  min-height: 300px;
 }
 
 
@@ -417,4 +418,23 @@ a {
 
 .socials-img5 {
   background: #d4d4d8 url(images/mail.png) no-repeat 50% 50%;
+}
+
+.breadcrumbs__list {
+  list-style: none;
+  font-family: 'GothaProLigIta', 'Trebuchet MS', sans-serif;
+  color: #ec1e79;
+  font-size: 15px;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+}
+
+.breadcrumbs__link2 {
+  color: black;
 }
