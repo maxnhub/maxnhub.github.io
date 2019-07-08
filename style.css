@@ -130,7 +130,15 @@ a {
 }
 
 .menu__icon3 {
-  background: url(images/feed_icon.png) no-repeat 50% 50%;
+  background: url(images/wallet_icon.png) no-repeat 50% 50%;
+}
+
+.menu__icon-active {
+  background: url(images/feed_icon_black.png) no-repeat 50% 50%;
+  }
+
+.menu__icon-nonactive {
+  background: url(images/main_icon_pink.png) no-repeat 50% 50%;
 }
 
 .feature {
