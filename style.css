@@ -442,6 +442,10 @@ a {
   height: 20px;
 }
 
+.socials-img:hover {
+  background-color: #ec1e79;
+}
+
 .socials-img1 {
   background: #d4d4d8 url(images/vk.png) no-repeat 50% 50%;
 }
