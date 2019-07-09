@@ -80,6 +80,10 @@ a {
   margin-left: 60px;
 }
 
+.header__worktime:hover {
+  color: #747cac;
+}
+
 .banner {
   background-color: #27273e;
   height: 367px;
@@ -118,10 +122,16 @@ a {
   width: 19px;
   height: 19px;
   margin-right: 20px;
-  /*<img src="images/main_icon.png" alt="Иконка Главная">*/
+ 
 }
 
+
+
 .menu__icon--main {
+  background: url(images/main_icon_pink.png) no-repeat 50% 50%;
+}
+
+.menu__icon--main-active {
   background: url(images/main_icon.png) no-repeat 50% 50%;
 }
 
@@ -129,16 +139,16 @@ a {
   background: url(images/feed_icon.png) no-repeat 50% 50%;
 }
 
+.menu__icon--feed-active{
+  background: url(images/feed_icon_black.png) no-repeat 50% 50%;
+}
+
 .menu__icon--wallet {
   background: url(images/wallet_icon.png) no-repeat 50% 50%;
 }
 
-.menu__icon--active {
-  background: url(images/feed_icon_black.png) no-repeat 50% 50%;
-  }
-
-.menu__icon--nonactive {
-  background: url(images/main_icon_pink.png) no-repeat 50% 50%;
+.menu__icon--wallet-active{
+  background: url(images/wallet_icon_black.png) no-repeat 50% 50%;
 }
 
 .feature {
@@ -428,12 +438,12 @@ a {
   padding-right: 15px;
 }
 
-.socials-link {
+.socials__link {
   text-decoration: none;
   margin: 5px;
 }
 
-.socials-img {
+.socials__img {
   background-color: #d4d4d8;
   border-radius: 50% 50%;
   display: inline-block;
