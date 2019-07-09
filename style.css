@@ -121,23 +121,23 @@ a {
   /*<img src="images/main_icon.png" alt="Иконка Главная">*/
 }
 
-.menu__icon1 {
+.menu__icon--main {
   background: url(images/main_icon.png) no-repeat 50% 50%;
 }
 
-.menu__icon2 {
+.menu__icon--feed {
+  background: url(images/feed_icon.png) no-repeat 50% 50%;
+}
+
+.menu__icon--wallet {
   background: url(images/wallet_icon.png) no-repeat 50% 50%;
 }
 
-.menu__icon3 {
-  background: url(images/wallet_icon.png) no-repeat 50% 50%;
-}
-
-.menu__icon-active {
+.menu__icon--active {
   background: url(images/feed_icon_black.png) no-repeat 50% 50%;
   }
 
-.menu__icon-nonactive {
+.menu__icon--nonactive {
   background: url(images/main_icon_pink.png) no-repeat 50% 50%;
 }
 
@@ -176,15 +176,15 @@ a {
 }
 
 
-.feature__logo1 {
+.feature__logo--flower {
   background: #27273e url(images/flower.png) no-repeat 50% 50%;
 }
 
-.feature__logo2 {
+.feature__logo--star {
   background: #27273e url(images/star.png) no-repeat 50% 50%;
 }
 
-.feature__logo3 {
+.feature__logo--palette {
   background: #27273e url(images/palette.png) no-repeat 50% 50%;
 }
 
@@ -278,8 +278,7 @@ a {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  margin-top: 70px;
-
+  margin: 35px 0px;
 }
 
 .pagination__controls,
@@ -442,27 +441,27 @@ a {
   height: 20px;
 }
 
-.socials-img:hover {
+.socials__img:hover {
   background-color: #ec1e79;
 }
 
-.socials-img1 {
+.socials__img--vk {
   background: #d4d4d8 url(images/vk.png) no-repeat 50% 50%;
 }
 
-.socials-img2 {
+.socials__img--fb {
   background: #d4d4d8 url(images/fb.png) no-repeat 50% 50%;
 }
 
-.socials-img3 {
+.socials__img--ggl {
   background: #d4d4d8 url(images/google.png) no-repeat 50% 50%;
 }
 
-.socials-img4 {
+.socials__img--tw {
   background: #d4d4d8 url(images/twitter.png) no-repeat 50% 50%;
 }
 
-.socials-img5 {
+.socials-img--ml {
   background: #d4d4d8 url(images/mail.png) no-repeat 50% 50%;
 }
 
