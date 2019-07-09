@@ -621,6 +621,13 @@ a {
 
 .prices__field {
   display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.prices__field-block {
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .prices__field-block-img-container {
@@ -629,15 +636,53 @@ a {
   text-align: center;
 }
 
-.prices__field-block-img--odin {
-  background: url(images/prices1.png) no-repeat 50% 50%;
-  padding: 60px 0px;
+.prices__field-block-img {
+  margin-bottom: 25px;
   text-align: center;
   border-radius: 3px;
 }
 
+.prices__field-block-img--odin {
+  background: url(images/prices1.png) no-repeat 50% 50%;
+  padding: 60px 0px;
+}
+
+.prices__field-block-img--troe {
+  background: url(images/prices2.png) no-repeat 50% 50%;
+  padding: 60px 0px;
+}
+
+.prices__field-block-img--desyat {
+  background: url(images/prices3.png) no-repeat 50% 50%;
+  padding: 60px 0px;
+}
+
+.prices__field-block-img--bezlim {
+  background: url(images/prices4.png) no-repeat 50% 50%;
+  padding: 40px 0px 30px;
+}
+
+.prices__field-block-img--vsevklucheno {
+  background: url(images/prices5.png) no-repeat 50% 50%;
+  padding: 49px 0px 49px;
+}
+
+.prices__field-block-img--peregovory {
+  background: url(images/prices6.png) no-repeat 50% 50%;
+  padding: 63px 0px;
+}
+
 .prices__field-block-img-description {
+  
   color: #5dd1f8;
+  font-size: 24px;
+  font-family: 'GothaProLigBol', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.prices__field-block-img-description-pink {
+  display:block;
+  color: #ec1e79;
   font-size: 24px;
   font-family: 'GothaProLigBol', 'Trebuchet MS', Arial, sans-serif;
   font-weight: bolder;
@@ -648,9 +693,6 @@ a {
   font-size: 14px;
 }
 
-.prices__field-block-title {
-  padding: 0px 20px;
-}
 
 
 
