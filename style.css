@@ -340,7 +340,10 @@ a {
   font-weight: bold;
   margin-right: 10px;
   margin-left: 8px;
+}
 
+.pagination__pages-link:hover {
+  color: #ec1e79;
 }
 
 .active__page {
