@@ -82,6 +82,7 @@ a {
 
 .header__worktime:hover {
   color: #747cac;
+  cursor: pointer;
 }
 
 .banner {
@@ -613,6 +614,11 @@ a {
   width: 140px;
   height: 50px;
   border: none;
+}
+
+.feedback__footer-button-form:hover {
+  background-color: #ec1e79;
+  cursor: pointer;
 }
 
 
