@@ -118,6 +118,22 @@ a {
   color: black;
 }
 
+.menu__text:hover {
+  color: black;
+}
+
+.menu__text:hover .menu__icon--main {
+  background: url(images/main_icon.png) no-repeat 50% 50%;
+}
+
+.menu__text:hover .menu__icon--feed {
+  background: url(images/feed_icon_black.png) no-repeat 50% 50%;
+}
+
+.menu__text:hover .menu__icon--wallet {
+  background: url(images/wallet_icon_black.png) no-repeat 50% 50%;
+}
+
 .menu__icon {
   display: inline-block;
   width: 19px;
