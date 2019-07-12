@@ -533,7 +533,7 @@ a {
   color: #ec1e79;
 }
 
-.breadcrumbs__link2 {
+.breadcrumbs__item--unactive {
   color: black;
 }
 
