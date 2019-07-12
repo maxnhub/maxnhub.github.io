@@ -441,6 +441,7 @@ a {
 
 .socials__list {
   list-style: none;
+  margin-block-end: 0;
 }
 
 .socials__text {
