@@ -168,7 +168,6 @@ a {
 .feature {
   width: 800px;
   float: left;
-  margin-bottom: 85px;
   padding-left: 50px;
 }
 
@@ -650,6 +649,12 @@ a {
 .prices__field-block {
   margin-right: 50px;
   margin-bottom: 50px;
+}
+
+.prices__field-block-img-c {
+  height: 150px;
+  width: 250px;
+  border-radius: 3px;
 }
 
 .prices__field-block-img-container {
