@@ -667,6 +667,37 @@ a {
 }
 
 .prices__field-block {
+  width: 250px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.prices__field-visual {
+  position: relative;
+  color: #5dd1f8;
+  font-size: 24px;
+  font-family: 'GothaProLig', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.prices__field-pic {
+  display: block;
+  max-width: 100%;
+  border-radius: 3px;
+  height: 150px;
+}
+
+
+.prices__field-visual-title {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+/*
+.prices__field-block {
   margin-right: 50px;
   margin-bottom: 50px;
 }
@@ -724,18 +755,18 @@ a {
   color: #5dd1f8;
   font-size: 24px;
   font-family: 'GothaProLigBol', 'Trebuchet MS', Arial, sans-serif;
-  font-weight: bolder;
+  font-weight: bolder; */
 }
 
-.prices__field-block-img-description-pink {
-  display:block;
+/*.prices__field-visual-title-pink {
   color: #ec1e79;
-  font-size: 24px;
-  font-family: 'GothaProLigBol', 'Trebuchet MS', Arial, sans-serif;
-  font-weight: bolder;
+  position: absolute;
+  top: 30px;
+  left: 75px;*/
+
 }
 
-.prices__field-block-text {
+.prices__field-description-text {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
 }
