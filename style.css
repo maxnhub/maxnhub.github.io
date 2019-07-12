@@ -455,13 +455,17 @@ a {
   margin: 0;
   color: white;
   margin-bottom: 10px;
-  padding-right: 15px;
+  padding-right: 10px;
   font-size: 15px;
 }
 
 .socials__item {
   display: inline-block;
   padding-right: 6px;
+}
+
+.socials__item:last-child {
+  padding-right: 0;
 }
 
 .socials__link {
