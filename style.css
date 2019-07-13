@@ -420,8 +420,6 @@ a {
 }
 
 .footer__logo {
-  /*align-self: center;
-  display: inline-block;*/
   margin-top: 15px;
   position: absolute;
   left: 50%;
@@ -429,12 +427,6 @@ a {
 }
 
 .socials {
-  /*display: inline-block;
- 
-  /*
-  position: absolute;
-  top: 15px;
-  right: 20px;*/
   text-align: right;
   margin-top: 15px;
 }
@@ -701,10 +693,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 
 .prices__field-visual-purple:hover {
   background: 0%;
+}
+
+.prices__field-visual-purple:hover .prices__field-visual-title {
+  display: none;
 }
 
 .prices__field-pic {
