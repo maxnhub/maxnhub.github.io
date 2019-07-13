@@ -40,6 +40,13 @@ a {
   margin: 0 auto;
 }
 
+.container--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+}
+
 h1, h2, h3 {
   margin-block-end: 0;
   margin-block-start: 0;
@@ -49,19 +56,12 @@ h1, h2, h3 {
 
 .header {
   background-color: #27273e;
-  height: 65px;
-  position: relative;
-  padding-top: 10px;
 }
 
 .header__logo {
-  margin-left: 20px;
 }
 
 .header__contacts {
-  float: right;
-  text-align: right;
-  margin-right: 15px;
   font-weight: normal;
 }
 
@@ -72,7 +72,6 @@ h1, h2, h3 {
   font-size: 21px;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .header__worktime {
@@ -99,10 +98,8 @@ h1, h2, h3 {
 }
 
 .sidebar {
-  width: 180px;
   padding: 20px;
-  display: inline-block;
-  float: left;
+  align-self: flex-start;
 }
 
 .menu__list {
@@ -119,6 +116,7 @@ h1, h2, h3 {
   color: #ec1e79;
   text-decoration: none;
   margin-left: 10px;
+  display: flex;
 }
 
 .menu__text-active {
@@ -172,24 +170,26 @@ h1, h2, h3 {
   background: url(images/wallet_icon_black.png) no-repeat 50% 50%;
 }
 
-.feature {
-  width: 790px;
-  float: left;
-  padding-left: 50px;
-}
 
 .title {
   font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 49px;
 }
 
+.feature {
+  display: block;
+  padding-left: 50px;
+}
+
 .feature__list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .feature__block {
   width: 240px;
-  float: left;
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   text-align: center;
@@ -254,13 +254,9 @@ h1, h2, h3 {
 
 .content {
   display: block;
-  margin-left: 18%;
   padding-left: 50px;
 }
 
-.news {
-  clear: both;
-}
 
 .content__list {
   padding: 0;
@@ -390,22 +386,16 @@ h1, h2, h3 {
 
 .footer {
   background-color: #27273e;
-  height: 75px;
+  
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 15px;
   color: white;
 
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  position: relative;
-}
+
 
 .footer__author {
-  margin-top: 15px;
   width: 300px;
 }
 
@@ -424,16 +414,8 @@ h1, h2, h3 {
   border-bottom: 1px solid gray;
 }
 
-.footer__logo {
-  margin-top: 15px;
-  position: absolute;
-  left: 50%;
-
-}
-
 .socials {
   text-align: right;
-  margin-top: 15px;
 }
 
 .socials__list {
