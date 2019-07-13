@@ -40,6 +40,11 @@ a {
   margin: 0 auto;
 }
 
+h1, h2, h3 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
 
 
 .header {
@@ -89,7 +94,7 @@ a {
 
 .banner {
   background-color: #27273e;
-  height: 367px;
+  height: 359px;
   width: 100%;
 }
 
@@ -723,11 +728,9 @@ a {
 .prices__field-description-text {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
-} */
+} 
 
 .partners__title {
- margin-block-start: 0;
- margin-block-end: 0;
  margin-bottom: 60px;
 }
 
