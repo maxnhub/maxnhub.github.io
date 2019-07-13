@@ -36,7 +36,7 @@ a {
 }
 
 .container {
-  width: 1100px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -168,7 +168,7 @@ a {
 }
 
 .feature {
-  width: 800px;
+  width: 790px;
   float: left;
   padding-left: 50px;
 }
@@ -272,11 +272,9 @@ a {
   width: 160px;
   height: 160px;
   border-radius: 50% 50%;
-}
-
-.content__comments-img {
   background: #f5f5f5 url(images/logo-fig-gray.png) no-repeat 50% 50%;
 }
+
 
 .content__desc {
   display: inline-block;
@@ -402,10 +400,6 @@ a {
 }
 
 .footer__author {
-  /*display: inline-block;/*
-  position: absolute;
-  top: 15px;
-  left: 20px;*/
   margin-top: 15px;
   width: 300px;
 }
@@ -596,8 +590,13 @@ a {
   border: none;
   height: 45px;
   width: 270px;
-  padding-left: 10px;
+  padding-left: 8px;
   font-size: 18px;
+}
+
+.feedback__form:focus {
+  border: 2px solid #ec1e79;
+  outline: none;
 }
 
 .feedback__block {
@@ -615,6 +614,8 @@ a {
  
 }
 
+
+
 .feedback__textarea-form {
   border-top: 2px solid #ec1e79;
   border-bottom: 2px solid #ec1e79;
@@ -627,17 +628,15 @@ a {
   justify-content: space-between;
 }
 
-.feedback__footer-check-field-text {
+.feedback__footer-radio-field-text {
   margin-block-start: 0;
 }
 
-.feedback__footer-checkbox {
+.feedback__footer-radio {
   display: inline-block;
 }
 
-.feedback__footer-checkbox:active {
-  color: #ec1e79;
-}
+
 
 .feedback__footer-button-field {
   padding-right: 20px;
@@ -670,12 +669,20 @@ a {
   flex-wrap: wrap;
 }
 
-.prices__field-block {
+.prices__field-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.prices__field-item {
   width: 250px;
   margin-right: 50px;
   margin-bottom: 50px;
   text-align: center;
   position: relative;
+
 }
 
 .prices__field-visual-purple {
@@ -691,9 +698,9 @@ a {
   border-radius: 3px;
   width: 100%;
   height: 167px;
-  text-align: center;
-  vertical-align: middle;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .prices__field-visual-purple:hover {
@@ -707,21 +714,10 @@ a {
   height: 167px;
 }
 
-
 .prices__field-visual-title {
-  padding: 65px 50px 0px 50px;
   margin-block-end: 0;
   margin-block-start: 0;
 }
-
-.prices__field-visual-title-vip {
-  padding: 30px 30px 0px 30px;
-}
-
-.prices__field-visual-title-peregovory {
-  padding: 65px 15px 0px 15px;
-}
-
 
 .prices__field-visual-title-pink {
   color: #ec1e79;
@@ -730,7 +726,7 @@ a {
 .prices__field-description-text {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
-}
+} */
 
 .partners__title {
  margin-block-start: 0;
