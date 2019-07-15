@@ -1,0 +1,35 @@
+
+.banner {
+  background-color: #27273e;
+  height: 359px;
+  width: 100%;
+}
+
+.banner__sale {
+  height: 175px;
+}
+
+.banner__sale-img {
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  background: url(../../images/banner2.png) no-repeat 50% 50%;
+  padding: 5% 22% 5% 22%;
+}
+
+.banner__sale-description {
+  display: inline-block;
+  width: 620px;
+
+}
+
+.banner__sale-decription-price {
+  color: #ec1e79;
+  font-weight: bold;
+}
+
+.banner__sale-text {
+  vertical-align: middle;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}

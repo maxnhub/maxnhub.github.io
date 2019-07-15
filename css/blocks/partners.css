@@ -1,0 +1,19 @@
+.partners__title {
+  margin-bottom: 60px;
+}
+
+.partners__field {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.partners__field-block {
+  margin-right: 120px;
+  margin-bottom: 60px;
+  filter: grayscale(1)
+}
+
+.partners__field-block:hover {
+  filter: grayscale(0);
+}

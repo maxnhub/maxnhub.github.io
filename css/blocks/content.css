@@ -1,0 +1,36 @@
+.content {
+  display: block;
+  padding-left: 50px;
+}
+
+
+.content__list {
+  padding: 0;
+}
+
+.content__item {
+  list-style: none;
+  border-bottom: 2px solid #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.content__img {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50% 50%;
+  background: #f5f5f5 url(../../images/logo-fig-gray.png) no-repeat 50% 50%;
+}
+
+
+.content__desc {
+  display: inline-block;
+  width: 76%;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.content__description {
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}

@@ -1,0 +1,72 @@
+.feature {
+  display: block;
+  padding-left: 50px;
+}
+
+.feature__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+.feature__block {
+  width: 240px;
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  min-height: 300px;
+  padding-top: 30px;
+}
+
+.feature__block:hover {
+  border: 1px solid #d4d4d8;
+}
+
+
+.feature__logo {
+  background-color: #27273e;
+  border-radius: 50% 50%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+
+}
+
+
+.feature__logo--flower {
+  background: #27273e url(../../images/flower.png) no-repeat 50% 50%;
+}
+
+.feature__logo--star {
+  background: #27273e url(../../images/star.png) no-repeat 50% 50%;
+}
+
+.feature__logo--palette {
+  background: #27273e url(../../images/palette.png) no-repeat 50% 50%;
+}
+
+.feature__header {
+  font-size: 15px;
+  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
+}
+
+.feature__text {
+  text-align: center;
+}
+
+.feature__description {
+  text-align: left;
+  list-style-type: disc;
+}
+
+.feature__item {
+  color: #ec1e79;
+}
+
+.feature__item span {
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  padding-left: 30px;
+  color: black;
+}

@@ -1,0 +1,27 @@
+.footer {
+  background-color: #27273e;
+
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  color: white;
+
+}
+
+.footer__author {
+  width: 300px;
+}
+
+.footer__author-text {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.footer__author-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.schoollink {
+  border-bottom: 1px solid gray;
+}

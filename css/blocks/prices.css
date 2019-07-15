@@ -1,0 +1,75 @@
+.prices__title {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-bottom: 50px;
+}
+
+.prices__field {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+}
+
+.prices__field-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.prices__field-item {
+  width: 250px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  position: relative;
+
+}
+
+.prices__field-visual-purple {
+  color: #5dd1f8;
+  font-size: 26px;
+  font-family: 'GothaProLig', 'Trebuchet MS', Arial, sans-serif;
+  font-weight: normal;
+  background: #27273e;
+  filter: opacity(0.9);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  width: 100%;
+  height: 167px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.prices__field-visual-purple:hover {
+  background: 0%;
+}
+
+.prices__field-visual-purple:hover .prices__field-visual-title {
+  display: none;
+}
+
+.prices__field-pic {
+  display: block;
+  max-width: 100%;
+  border-radius: 3px;
+  height: 167px;
+}
+
+.prices__field-visual-title {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+.prices__field-visual-title-pink {
+  color: #ec1e79;
+}
+
+.prices__field-description-text {
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+}
