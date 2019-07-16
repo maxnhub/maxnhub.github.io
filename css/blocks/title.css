@@ -1,6 +1,7 @@
 .title {
   font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 49px;
+  margin: 50px;
 }
 
 .title-3 {
@@ -8,6 +9,3 @@
   font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
 }
 
-.comments__title {
-  margin-top: 0px;
-}

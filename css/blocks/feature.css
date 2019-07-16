@@ -7,7 +7,6 @@
   list-style: none;
   display: flex;
   justify-content: center;
-
 }
 
 .feature__block {
@@ -17,6 +16,9 @@
   text-align: center;
   min-height: 300px;
   padding-top: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .feature__block:hover {
@@ -30,6 +32,7 @@
   display: inline-block;
   width: 70px;
   height: 70px;
+  margin: 0 auto;
 
 }
 
@@ -57,16 +60,17 @@
 
 .feature__description {
   text-align: left;
-  list-style-type: disc;
+  
 }
 
 .feature__item {
   color: #ec1e79;
+  list-style-type: disc;
 }
 
 .feature__item span {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
-  padding-left: 30px;
+  padding-left: 10px;
   color: black;
 }

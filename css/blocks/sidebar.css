@@ -1,5 +1,6 @@
 .sidebar {
   align-self: flex-start;
+  padding-top: 50px;
 }
 
 .menu__list {

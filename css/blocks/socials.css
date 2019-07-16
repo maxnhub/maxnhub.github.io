@@ -6,6 +6,7 @@
   list-style: none;
   margin-block-end: 0;
   margin-block-start: 0;
+  display: flex;
 }
 
 .socials__text {
@@ -14,11 +15,6 @@
   margin-bottom: 10px;
   padding-right: 10px;
   font-size: 15px;
-}
-
-.socials__item {
-  display: inline-block;
-  padding-right: 6px;
 }
 
 .socials__item:last-child {
