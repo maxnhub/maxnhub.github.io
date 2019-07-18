@@ -9,35 +9,36 @@
 
 .menu__item {
   margin-bottom: 30px;
+  display: flex;
 }
 
-.menu__text {
+.menu__link {
   font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 12px;
   color: #ec1e79;
   text-decoration: none;
   margin-left: 10px;
   display: flex;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 
-.menu__text-active {
+.menu__link-active {
   color: black;
 }
 
-.menu__text:hover {
+.menu__link:hover {
   color: black;
 }
 
-.menu__text:hover .menu__icon--main {
+.menu__link:hover .menu__icon--main {
   background: url(../../images/main_icon.png) no-repeat 50% 50%;
 }
 
-.menu__text:hover .menu__icon--feed {
+.menu__link:hover .menu__icon--feed {
   background: url(../../images/feed_icon_black.png) no-repeat 50% 50%;
 }
 
-.menu__text:hover .menu__icon--wallet {
+.menu__link:hover .menu__icon--wallet {
   background: url(../../images/wallet_icon_black.png) no-repeat 50% 50%;
 }
 
@@ -47,6 +48,18 @@
   height: 19px;
   margin-right: 20px;
 }
+
+
+/*
+.menu__link-active:before {
+  background: url(../../images/main_icon.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}*/
 
 .menu__icon--main {
   background: url(../../images/main_icon_pink.png) no-repeat 50% 50%;

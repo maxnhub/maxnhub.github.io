@@ -1,7 +1,11 @@
 .title {
   font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 49px;
-  margin: 50px;
+  margin: 57px 0px 0px 13px;
+}
+
+.news__title {
+  margin-bottom: 70px;
 }
 
 .title-3 {
@@ -9,3 +13,6 @@
   font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
 }
 
+.comments__title {
+  margin-bottom: 70px;
+}
