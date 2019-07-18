@@ -66,7 +66,9 @@
               <h1 class="title comments__title">Отзывы</h1>
               <ul class="content__list">
                 <li class="content__item">
+                  <div class="content__avatar">
                   <img src="images/oleg-pavlov.png" class="content__img" alt="Чёрная дыра">
+                  </div>
                   <div class="content__desc">
                     <div class="date">12.10.2016</div>
                     <h3 class="title-3">Олег Павлов</h3>
@@ -80,7 +82,9 @@
                   </div>
                 </li>
                 <li class="content__item">
+                  <div class="content__avatar">
                   <img src="images/ernest-izil.png" class="content__img" alt="Получай призы">
+                  </div>
                   <div class="content__desc">
                     <div class="date">01.02.2016</div>
                     <h3 class="title-3">Эрнест Изиль</h3>
@@ -94,7 +98,9 @@
                   </div>
                 </li>
                 <li class="content__item">
-                  <div class="content__img content__img"></div>
+                  <div class="content__avatar">
+                    
+                  </div>
                   <div class="content__desc">
                     <div class="date">22.12.2015</div>
                     <h3 class="title-3">Елена Сургай</h3>
@@ -111,7 +117,9 @@
                   </div>
                 </li>
                 <li class="content__item">
+                  <div class="content__avatar">
                   <img src="images/natalia-osad.png" class="content__img" alt="Получай призы">
+                  </div>
                   <div class="content__desc">
                     <div class="date">14.08.2015</div>
                     <h3 class="title-3">Наталья Осадчая</h3>
@@ -180,13 +188,15 @@
         <section class="feedback">
           <div class="feedback__field">
             <h2 class="title feedback__title">Оставить отзыв</h2>
-            <div class="feedback__block">
-              <label for="user-field-id" class="feedback__subtext">Ваше имя</label>
-              <input id="user-field-id" type="text" name="username" class="feedback__form" placeholder="Андрей">
-            </div>
-            <div class="feedback__block">
-              <label for="vk-profile" class="feedback__subtext">Ссылка на профиль VK</label>
-              <input id="vk-profile" type="text" name="vk-profile" class="feedback__form" placeholder="vk.com/example">
+            <div class="feedback__row">
+              <div class="feedback__block">
+                    <label for="user-field-id" class="feedback__subtext">Ваше имя</label>
+                    <input id="user-field-id" type="text" name="username" class="feedback__form" placeholder="Андрей">
+              </div>
+              <div class="feedback__block">
+                    <label for="vk-profile" class="feedback__subtext">Ссылка на профиль VK</label>
+                    <input id="vk-profile" type="text" name="vk-profile" class="feedback__form" placeholder="vk.com/example">
+              </div>
             </div>
             <div class="feedback__textarea">
               <label for="feedback-textarea" class="feedback__subtext">Текст отзыва</label>

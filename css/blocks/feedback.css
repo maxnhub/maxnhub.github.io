@@ -1,10 +1,10 @@
 .feedback {
-  padding: 60px 200px;
+  padding: 60px;
   font-family: 'GothaProLig', 'Trebuchet MS', Arial, sans-serif;
   font-size: 16px;
-  width: 705px;
+  width: 50%;
   margin: 0 auto;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .feedback__field {
@@ -19,8 +19,8 @@
 .feedback__form {
   border: none;
   height: 45px;
-  width: 270px;
-  padding-left: 8px;
+  width: 100%;
+  padding: 15px 0 15px 8px;
   font-size: 18px;
 }
 
@@ -29,19 +29,24 @@
   outline: none;
 }
 
+.feedback__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .feedback__block {
-  display: inline-block;
+  flex: 1 0 250px;
   padding-right: 20px;
 }
 
 .feedback__subtext {
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
 }
 
 .feedback__textarea {
   padding-top: 20px;
-
+  width: 100%;
 }
 
 
@@ -50,6 +55,7 @@
   border-top: 2px solid #ec1e79;
   border-bottom: 2px solid #ec1e79;
   font-size: 18px;
+  width: 97%;
 }
 
 .feedback__footer {

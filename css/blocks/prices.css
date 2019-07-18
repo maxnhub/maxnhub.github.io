@@ -7,7 +7,7 @@
 
 .prices__field {
   display: flex;
-  width: 900px;
+  width: 100%;
   flex-wrap: wrap;
 }
 
