@@ -1,6 +1,6 @@
 .sidebar {
   align-self: flex-start;
-  padding-top: 65px;
+  padding: 65px 0px 0px 9px;
 }
 
 .menu__list {
@@ -8,7 +8,7 @@
 }
 
 .menu__item {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   display: flex;
 }
 
@@ -22,8 +22,8 @@
   letter-spacing: 1px;
 }
 
-.menu__link-active {
-  color: black;
+.menu__text {
+  line-height: 2.15;
 }
 
 .menu__link:hover {
@@ -50,8 +50,8 @@
 }
 
 
-/*
-.menu__link-active:before {
+
+.menu__link--main-active:before {
   background: url(../../images/main_icon.png) no-repeat 50% 50%;
   content: "";
   display: inline-block;
@@ -59,7 +59,83 @@
   height: 19px;
   margin-right: 20px;
   vertical-align: bottom;
-}*/
+}
+
+.menu__link--main:before {
+  background: url(../../images/main_icon_pink.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__link--feed:before {
+  background: url(../../images/feed_icon.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__link--wallet:before {
+  background: url(../../images/wallet_icon.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__link:hover .menu__link--feed:before {
+  background: url(../../images/feed_icon_black.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__link--wallet-active:before {
+  background: url(../../images/wallet_icon_black.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__link:hover .menu__link--wallet:before {
+  background: url(../../images/wallet_icon_black.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__link--feed-active:before {
+  background: url(../../images/feed_icon_black.png) no-repeat 50% 50%;
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+
+.menu__text-active {
+  color: black;
+}
+
+
 
 .menu__icon--main {
   background: url(../../images/main_icon_pink.png) no-repeat 50% 50%;
