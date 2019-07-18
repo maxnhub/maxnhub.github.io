@@ -10,7 +10,7 @@
 }
 
 .feature__block {
-  width: 240px;
+  flex-basis: 240px;
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   text-align: center;

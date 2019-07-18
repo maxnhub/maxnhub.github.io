@@ -1,6 +1,6 @@
 .sidebar {
   align-self: flex-start;
-  padding-top: 50px;
+  padding-top: 65px;
 }
 
 .menu__list {
@@ -13,11 +13,12 @@
 
 .menu__text {
   font-family: 'GothaProBol', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 17px;
+  font-size: 12px;
   color: #ec1e79;
   text-decoration: none;
   margin-left: 10px;
   display: flex;
+  letter-spacing: 5px;
 }
 
 .menu__text-active {
