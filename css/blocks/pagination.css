@@ -4,6 +4,7 @@
   justify-content: center;
   margin: 13px 0px 66px;
   padding-left: 80px;
+  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .pagination__controls,
@@ -52,8 +53,8 @@
 .pagination__pages-link {
   text-decoration: none;
   color: black;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: bolder;
   margin-right: 10px;
   margin-left: 8px;
 }

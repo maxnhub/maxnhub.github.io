@@ -1,7 +1,8 @@
 .breadcrumbs {
-  display: inline-block;
-  margin-left: 190px;
-  margin-top: 30px;
+  display: flex;
+  margin-left: 180px;
+  align-items: flex-end;
+  min-height: 59px;
 }
 
 .breadcrumbs__list {
