@@ -41,8 +41,16 @@
 
 }
 
+.content__desc-title {
+  margin: 7px 0px 11px 0px;
+  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+
 .content__description {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 29px;
+  letter-spacing: -0.25px;
 }

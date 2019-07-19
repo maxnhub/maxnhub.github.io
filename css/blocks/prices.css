@@ -11,14 +11,14 @@
   flex-wrap: wrap;
 }
 
-.prices__field-list {
+.prices__list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
 }
 
-.prices__field-item {
+.prices__item {
   width: 250px;
   margin-right: 50px;
   margin-bottom: 50px;
@@ -27,7 +27,7 @@
 
 }
 
-.prices__field-visual-purple {
+.prices__visual-purple {
   color: #5dd1f8;
   font-size: 26px;
   font-family: 'GothaProLig', 'Trebuchet MS', Arial, sans-serif;
@@ -46,31 +46,31 @@
   transition: 0.5s;
 }
 
-.prices__field-visual-purple:hover {
+.prices__visual-purple:hover {
   background: 0%;
 }
 
-.prices__field-visual-purple:hover .prices__field-visual-title {
+.prices__visual-purple:hover .prices__visual-title {
   display: none;
 }
 
-.prices__field-pic {
+.prices__pic {
   display: block;
   max-width: 100%;
   border-radius: 3px;
   height: 167px;
 }
 
-.prices__field-visual-title {
+.prices__visual-title {
   margin-block-end: 0;
   margin-block-start: 0;
 }
 
-.prices__field-visual-title-pink {
+.prices__visual-title-pink {
   color: #ec1e79;
 }
 
-.prices__field-description-text {
+.prices__description-text {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
 }

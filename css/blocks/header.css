@@ -1,6 +1,6 @@
 .header {
   background-color: #27273e;
-  margin-bottom: 64px;
+  margin-bottom: 62px;
 }
 
 .header__contacts {
@@ -25,6 +25,7 @@
   text-decoration: underline;
   background-color: #27273e;
   margin-left: 70px;
+  line-height: 1.5;
 
 }
 

@@ -18,26 +18,12 @@
             <img src="images/logo-fig.png" class="logo__img" alt="Лого">
           </a>
           <div class="header__contacts">
-            <a href="tel:+88000039210" class="header__tel">8(800)00-392-10</a>
+            <a href="tel:+88000039210" class="header__tel">8 (800) 00-392-10</a>
             <button type="button" class="header__worktime">График работы</button>
           </div>
         </div>
       </header>
       <div class="maincontent">
-        <div class="container">
-          <nav class="breadcrumbs">
-            <ul class="breadcrumbs__list">
-              <li class="breadcrumbs__item">
-                <a href="index.html" class="breadcrumbs__link">Главная</a>
-
-              </li>
-              <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link--unactive">Отзывы</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
         <div class="container container--flex">
           <aside class="sidebar">
             <nav class="menu">
@@ -62,6 +48,16 @@
           </aside>
 
           <main>
+            <nav class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="index.html" class="breadcrumbs__link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link breadcrumbs__link--unactive">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
             <section class="content comments">
               <h1 class="title comments__title">Отзывы</h1>
               <ul class="content__list">
@@ -71,7 +67,7 @@
                   </div>
                   <div class="content__desc">
                     <div class="date">12.10.2016</div>
-                    <h3 class="title-3">Олег Павлов</h3>
+                    <h3 class="content__desc-title">Олег Павлов</h3>
                     <p class="content__description">
                       Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров.
                       Получается
@@ -87,7 +83,7 @@
                   </div>
                   <div class="content__desc">
                     <div class="date">01.02.2016</div>
-                    <h3 class="title-3">Эрнест Изиль</h3>
+                    <h3 class="content__desc-title">Эрнест Изиль</h3>
                     <p class="content__description">
                       Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно
                       искал
@@ -103,7 +99,7 @@
                   </div>
                   <div class="content__desc">
                     <div class="date">22.12.2015</div>
-                    <h3 class="title-3">Елена Сургай</h3>
+                    <h3 class="content__desc-title">Елена Сургай</h3>
                     <p class="content__description">
                       Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место
                       для
@@ -122,7 +118,7 @@
                   </div>
                   <div class="content__desc">
                     <div class="date">14.08.2015</div>
-                    <h3 class="title-3">Наталья Осадчая</h3>
+                    <h3 class="content__desc-title">Наталья Осадчая</h3>
                     <p class="content__description">
                       Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под
                       рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора.
@@ -186,7 +182,6 @@
           </div>
         </div>
         <section class="feedback">
-          <div class="feedback__field">
             <h2 class="title feedback__title">Оставить отзыв</h2>
             <div class="feedback__row">
               <div class="feedback__block">
@@ -217,7 +212,6 @@
                 <input class="feedback__footer-button-form" type="submit" value="ОТПРАВИТЬ">
               </div>
             </div>
-          </div>
         </section>
       </div>
     </div>

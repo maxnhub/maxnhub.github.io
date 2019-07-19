@@ -1,19 +1,21 @@
 .feedback {
   padding: 60px;
   font-family: 'GothaProLig', 'Trebuchet MS', Arial, sans-serif;
-  font-size: 16px;
-  width: 50%;
+  font-size: 14px;
+  width: 44%;
   margin: 0 auto;
   box-sizing: border-box;
+  background-color: #f5f5f5;
+  padding: 77px 51px 0px 67px;
+
 }
 
-.feedback__field {
-  background-color: #f5f5f5;
-  padding: 50px;
-}
+
 
 .feedback__title {
   margin-block-start: 0;
+  margin-bottom: 26px;
+  margin-left: 0;
 }
 
 .feedback__form {
@@ -21,11 +23,12 @@
   height: 45px;
   width: 100%;
   padding: 15px 0 15px 8px;
-  font-size: 18px;
+  font-size: 15px;
+  border-radius: 3px;
 }
 
 .feedback__form:focus {
-  border: 2px solid #ec1e79;
+  border: 1px solid #ec1e79;
   outline: none;
 }
 
@@ -45,21 +48,24 @@
 }
 
 .feedback__textarea {
-  padding-top: 20px;
+  padding-top: 13px;
   width: 100%;
 }
 
 
 
 .feedback__textarea-form {
-  border-top: 2px solid #ec1e79;
-  border-bottom: 2px solid #ec1e79;
-  font-size: 18px;
+  border: 1px solid #ec1e79;
+  font-size: 14px;
   width: 97%;
+  border-radius: 3px;
+  color: black;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 .feedback__footer {
-  padding-top: 20px;
+  padding-top: 14px;
   display: flex;
   justify-content: space-between;
 }
@@ -75,16 +81,19 @@
 
 
 .feedback__footer-button-field {
-  padding-right: 20px;
+  padding-right: 18px;
+  padding-top: 4px;
 }
 
 .feedback__footer-button-form {
   color: white;
   background-color: #27273e;
   border-radius: 5px;
-  width: 140px;
-  height: 50px;
+  padding: 16px 21px;
   border: none;
+  font-size: 12px;
+  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
 }
 
 .feedback__footer-button-form:hover {

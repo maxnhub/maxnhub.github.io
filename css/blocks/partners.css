@@ -9,12 +9,17 @@
   flex-wrap: wrap;
 }
 
-.partners__field-block {
-  margin-right: 120px;
-  margin-bottom: 60px;
-  filter: grayscale(1)
+.partners__link {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.partners__field-block:hover {
+.partners__link {
+  width: 33%;
+  filter: grayscale(1);
+  margin-bottom: 35px;
+}
+
+.partners__link:hover {
   filter: grayscale(0);
 }

@@ -9,16 +9,10 @@
   margin: 81px 0px 78px 19px;
 }
 
-.title-3 {
-  margin: 7px 0px 11px 0px;
-  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
-  font-size: 18px;
-  letter-spacing: -1px;
-}
-
 .comments__title {
-  margin-bottom: 39px;
-  padding-top: 33px;
+  margin-bottom: 46px;
+  padding-top: 26px;
+  margin-left: 14px;
 }
 
 .feedback__title {
