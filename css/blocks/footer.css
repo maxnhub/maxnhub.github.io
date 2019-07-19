@@ -2,16 +2,22 @@
   background-color: #27273e;
 
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color: white;
 
 }
 
 .footer__author {
-  width: 300px;
+  width: 33%;
+}
+
+.footer__logo {
+  width: 33%;
+  text-align: center;
 }
 
 .footer__author-text {
+  width: 280px;
   margin-block-end: 0;
   margin-block-start: 0;
 }
