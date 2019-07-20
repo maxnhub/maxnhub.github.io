@@ -1,11 +1,17 @@
 
+.partners {
+  margin-bottom: 44px;
+}
+
 .partners__title {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
+  padding-left: 44px;
+  padding-top: 0px;
 }
 
 .partners__field {
+  padding-top: 51px;
   display: flex;
-  width: 900px;
   flex-wrap: wrap;
 }
 
@@ -15,9 +21,13 @@
 }
 
 .partners__link {
-  width: 33%;
+  display: flex;
+  width: 28%;
   filter: grayscale(1);
   margin-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
 }
 
 .partners__link:hover {

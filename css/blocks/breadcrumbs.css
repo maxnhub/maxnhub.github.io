@@ -1,6 +1,7 @@
 .breadcrumbs {
   display: flex;
   align-items: flex-end;
+  padding-left: 61px;
 }
 
 .breadcrumbs__list {
