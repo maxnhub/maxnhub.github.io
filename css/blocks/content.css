@@ -12,7 +12,7 @@
 .content__item {
   list-style: none;
   border-bottom: 2px solid #f5f5f5;
-  margin-bottom: 12px;
+  margin-bottom: 11px;
   padding-left: 18px;
   display: flex;
 }
@@ -43,7 +43,7 @@
 }
 
 .content__desc-title {
-  margin: 23px 26px 15px 35px;
+  margin: 6px 26px 15px 3px;
   font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
   font-size: 18px;
   letter-spacing: 0px;
