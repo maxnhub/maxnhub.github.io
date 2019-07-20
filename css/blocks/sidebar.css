@@ -16,17 +16,76 @@
   font-size: 12px;
   color: #ec1e79;
   text-decoration: none;
-  display: flex;
   letter-spacing: 1px;
-}
-
-.menu__text {
+  transition: 0.5s;
   line-height: 2.15;
+  position: relative;
+  padding-left: 38px;
 }
 
-.menu__link:hover {
+.active, .menu__link:hover {
   color: black;
 }
+
+.menu__link:before, .nav__link:after  {
+  content: '';
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background-image: url('../../images/spritesheet.png');
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+.menu__link:after {
+  opacity: 0;
+}
+
+.menu__link--main:before {
+  width: 17px;
+  height: 15px;
+  background-position: -165px -5px;
+}
+
+.menu__link--main:after {
+  background-position: -192px -5px;
+}
+
+.menu__link--feed:before {
+  width: 20px;
+  height: 18px;
+  background-position: -21px -5px;
+}
+
+.menu__link--feed:after {
+  background-position: -51px -5px;
+}
+
+.menu__link--wallet:before {
+  width: 19px;
+  height: 16px;
+  background-position: -342px -5px;
+}
+
+.menu__link--wallet:after {
+  background-position: -371px -5px;
+}
+
+.menu__link:hover:after {
+  opacity: 1;
+}
+
+.menu__link:hover.active {
+  color: black;
+}
+
+.active.menu__link:hover:after {
+  opacity: 0;
+}
+
+/*
 
 .menu__link:hover .menu__icon--main {
   background: url(../../images/main_icon.png) no-repeat 50% 50%;
@@ -138,3 +197,7 @@
 .menu__icon--wallet-active {
   background: url(../../images/wallet_icon_black.png) no-repeat 50% 50%;
 }
+
+*/
+
+

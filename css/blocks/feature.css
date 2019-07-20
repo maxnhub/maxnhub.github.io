@@ -27,28 +27,41 @@
 }
 
 
-.feature__logo {
+.feature__avatar {
   background-color: #27273e;
   border-radius: 50% 50%;
   display: inline-block;
   width: 70px;
   height: 70px;
   margin: 0 auto;
-  margin-bottom: 30px;
-
+  position: relative;
+  margin-bottom: 29px;
 }
 
+.feature__logo {
+  background-image: url('../../images/spritesheet.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 
 .feature__logo--flower {
-  background: #27273e url(../../images/flower.png) no-repeat 50% 50%;
+  width: 27px;
+  height: 31px;
+  background-position: -81px -5px;
 }
 
 .feature__logo--star {
-  background: #27273e url(../../images/star.png) no-repeat 50% 50%;
+  width: 32px;
+  height: 32px;
+  background-position: -257px -5px;
 }
 
 .feature__logo--palette {
-  background: #27273e url(../../images/palette.png) no-repeat 50% 50%;
+  width: 28px;
+  height: 29px;
+  background-position: -219px -5px;
 }
 
 .feature__header {
@@ -80,3 +93,95 @@
   padding-left: 10px;
   color: black;
 }
+
+/*
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
+}
+
+.-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -21px -5px;
+}
+
+.-feed_icon_black {
+    width: 20px;
+    height: 18px;
+    background-position: -51px -5px;
+}
+
+.-flower {
+    width: 27px;
+    height: 31px;
+    background-position: -81px -5px;
+}
+
+.-google {
+    width: 15px;
+    height: 9px;
+    background-position: -118px -5px;
+}
+
+.-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -143px -5px;
+}
+
+.-main_icon {
+    width: 17px;
+    height: 15px;
+    background-position: -165px -5px;
+}
+
+.-main_icon_pink {
+    width: 17px;
+    height: 15px;
+    background-position: -192px -5px;
+}
+
+.-palette {
+    width: 28px;
+    height: 29px;
+    background-position: -219px -5px;
+}
+
+.-star {
+    width: 32px;
+    height: 32px;
+    background-position: -257px -5px;
+}
+
+.-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -299px -5px;
+}
+
+.-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -320px -5px;
+}
+
+.-wallet_icon {
+    width: 19px;
+    height: 16px;
+    background-position: -342px -5px;
+}
+
+.-wallet_icon_black {
+    width: 19px;
+    height: 16px;
+    background-position: -371px -5px;
+}
+*/
