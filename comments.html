@@ -63,7 +63,7 @@
               <ul class="content__list">
                 <li class="content__item">
                   <div class="content__avatar">
-                  <img src="images/oleg-pavlov.png" class="content__img" alt="Чёрная дыра">
+                    <img src="images/oleg-pavlov.png" class="content__img" alt="Чёрная дыра">
                   </div>
                   <div class="content__desc">
                     <div class="date">12.10.2016</div>
@@ -79,7 +79,7 @@
                 </li>
                 <li class="content__item">
                   <div class="content__avatar">
-                  <img src="images/ernest-izil.png" class="content__img" alt="Получай призы">
+                    <img src="images/ernest-izil.png" class="content__img" alt="Получай призы">
                   </div>
                   <div class="content__desc">
                     <div class="date">01.02.2016</div>
@@ -95,7 +95,7 @@
                 </li>
                 <li class="content__item">
                   <div class="content__avatar">
-                    
+
                   </div>
                   <div class="content__desc">
                     <div class="date">22.12.2015</div>
@@ -114,7 +114,7 @@
                 </li>
                 <li class="content__item">
                   <div class="content__avatar">
-                  <img src="images/natalia-osad.png" class="content__img" alt="Получай призы">
+                    <img src="images/natalia-osad.png" class="content__img" alt="Получай призы">
                   </div>
                   <div class="content__desc">
                     <div class="date">14.08.2015</div>
@@ -173,46 +173,52 @@
         </div>
         <div class="banner banner--comments">
           <div class="container">
-            
-              <div class="banner__sale">
-                Для наших новых клиентов мы предлагаем <span class="banner__sale-decription-price">скидку 50%</span> на
-                первый день! Приходите, чтобы лично оценить
-                преимущества коворкинга «Воркадиум»!
-              </div>
-            
+
+            <div class="banner__sale">
+              Для наших новых клиентов мы предлагаем <span class="banner__sale-decription-price">скидку 50%</span> на
+              первый день! Приходите, чтобы лично оценить
+              преимущества коворкинга «Воркадиум»!
+            </div>
+
           </div>
         </div>
         <section class="feedback">
-            <h2 class="title feedback__title">Оставить отзыв</h2>
-            <div class="feedback__row">
-              <div class="feedback__block">
-                    <label for="user-field-id" class="feedback__subtext">Ваше имя</label>
-                    <input id="user-field-id" type="text" name="username" class="feedback__form" placeholder="Андрей">
-              </div>
-              <div class="feedback__block">
-                    <label for="vk-profile" class="feedback__subtext">Ссылка на профиль VK</label>
-                    <input id="vk-profile" type="text" name="vk-profile" class="feedback__form" placeholder="vk.com/example">
-              </div>
+          <h2 class="title feedback__title">Оставить отзыв</h2>
+          <div class="feedback__row">
+            <div class="feedback__block">
+              <label for="user-field-id" class="feedback__subtext">Ваше имя</label>
+              <input id="user-field-id" type="text" name="username" class="feedback__form" placeholder="Андрей">
             </div>
-            <div class="feedback__textarea">
-              <label for="feedback-textarea" class="feedback__subtext">Текст отзыва</label>
-              <textarea id="feedback-textarea" type="text" name="feedback-textarea" class="feedback__textarea-form"
-                placeholder="Мне понравилось" rows="5" cols="56"></textarea>
+            <div class="feedback__block">
+              <label for="vk-profile" class="feedback__subtext">Ссылка на профиль VK</label>
+              <input id="vk-profile" type="text" name="vk-profile" class="feedback__form" placeholder="vk.com/example">
             </div>
-            <div class="feedback__footer">
-              <div class="feedback__footer-radio-field">
-                <p class="feedback__footer-radio-field-text">Отображать фото в отзыве?</p>
-                <div class="feedback__footer-radio-answers">
-                  <label for="radio-yes">Да</label>
-                  <input id="radio-yes" class="feedback__footer-radio-mark" type="radio" value="Да" checked>
+          </div>
+          <div class="feedback__textarea">
+            <label for="feedback-textarea" class="feedback__subtext">Текст отзыва</label>
+            <textarea id="feedback-textarea" type="text" name="feedback-textarea" class="feedback__textarea-form"
+              placeholder="Мне понравилось" rows="5" cols="56"></textarea>
+          </div>
+          <div class="radio__field">
+            <div class="radio__area">
+                <p class="radio__area-text">Отображать фото в отзыве?</p>
+                <div class="radio__answers">
+                  <label class="form__label">
+                    <input class="form__radio" type="radio">
+                    <span class="form__custom"></span>
+                    <span class="form__text">Да</span>
+                  </label>
+                  <label class="form__label">
+                    <input class="form__radio" type="radio">
+                    <span class="form__custom"></span>
+                    <span class="form__text">Нет</span>
+                  </label>
                 </div>
-                <label for="radio-no">Нет</label>
-                <input id="radio-no" class="feedback__footer-radio-mark" value="Нет" type="radio">
-              </div>
-              <div class="feedback__footer-button-field">
-                <input class="feedback__footer-button-form" type="submit" value="ОТПРАВИТЬ">
-              </div>
             </div>
+            <div class="button-field">
+              <input class="button-form" type="submit" value="ОТПРАВИТЬ">
+            </div>
+          </div>
         </section>
       </div>
     </div>
