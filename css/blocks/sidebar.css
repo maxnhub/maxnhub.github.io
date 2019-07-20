@@ -82,7 +82,7 @@
   color: black;
 }
 
-.menu__link:hover:after.active {
+.active.menu__link:hover:after {
   opacity: 0;
 }
 

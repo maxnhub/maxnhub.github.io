@@ -1,6 +1,7 @@
 
 .prices {
   padding-left: 61px;
+  margin-bottom: 20px;
 }
 
 .prices__title {
@@ -27,7 +28,7 @@
 .prices__item {
   width: 230px;
   margin-right: 76px;
-  margin-bottom: 53px;
+  margin-bottom: 38px;
   text-align: center;
   position: relative;
 
@@ -41,14 +42,7 @@
   width: 247px;
 }
 
-.prices__visual-title {
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
 
-.prices__visual-title-pink {
-  color: #ec1e79;
-}
 
 .prices__description-text {
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -72,6 +66,7 @@
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+  line-height: 20px;
 
 }
 
