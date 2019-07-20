@@ -34,7 +34,7 @@
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link active">
+                  <a class="menu__link menu__link--feed active">
                     <p class="menu__text menu__text-active">ОТЗЫВЫ</p>
                   </a>
                 </li>
@@ -48,7 +48,7 @@
           </aside>
 
           <main class="main main--move-right">
-            <nav class="breadcrumbs">
+            <div class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
                   <a href="index.html" class="breadcrumbs__link">Главная</a>
@@ -57,7 +57,7 @@
                   <a class="breadcrumbs__link breadcrumbs__link--unactive">Отзывы</a>
                 </li>
               </ul>
-            </nav>
+            </div>
             <section class="content comments">
               <h1 class="title comments__title">Отзывы</h1>
               <ul class="content__list">
@@ -171,11 +171,11 @@
             </section>
           </main>
         </div>
-        <div class="banner banner--comments">
+        <div class="sale">
           <div class="container">
 
-            <div class="banner__sale">
-              Для наших новых клиентов мы предлагаем <span class="banner__sale-decription-price">скидку 50%</span> на
+            <div class="sale__banner">
+              Для наших новых клиентов мы предлагаем <span class="sale__banner-decription-price">скидку 50%</span> на
               первый день! Приходите, чтобы лично оценить
               преимущества коворкинга «Воркадиум»!
             </div>
@@ -184,41 +184,44 @@
         </div>
         <section class="feedback">
           <h2 class="title feedback__title">Оставить отзыв</h2>
-          <div class="feedback__row">
-            <div class="feedback__block">
-              <label for="user-field-id" class="feedback__subtext">Ваше имя</label>
-              <input id="user-field-id" type="text" name="username" class="feedback__form" placeholder="Андрей">
+          <form class="form">
+            <div class="feedback__row">
+              <div class="feedback__block">
+                <label for="user-field-id" class="feedback__subtext">Ваше имя</label>
+                <input id="user-field-id" type="text" name="username" class="feedback__form" placeholder="Андрей">
+              </div>
+              <div class="feedback__block">
+                <label for="vk-profile" class="feedback__subtext">Ссылка на профиль VK</label>
+                <input id="vk-profile" type="text" name="vk-profile" class="feedback__form" placeholder="vk.com/example">
+              </div>
             </div>
-            <div class="feedback__block">
-              <label for="vk-profile" class="feedback__subtext">Ссылка на профиль VK</label>
-              <input id="vk-profile" type="text" name="vk-profile" class="feedback__form" placeholder="vk.com/example">
+            <div class="feedback__textarea">
+              <label for="feedback-textarea" class="feedback__subtext">Текст отзыва</label>
+              <textarea id="feedback-textarea" type="text" name="feedback-textarea" class="feedback__textarea-form"
+                placeholder="Мне понравилось" rows="5" cols="56"></textarea>
             </div>
-          </div>
-          <div class="feedback__textarea">
-            <label for="feedback-textarea" class="feedback__subtext">Текст отзыва</label>
-            <textarea id="feedback-textarea" type="text" name="feedback-textarea" class="feedback__textarea-form"
-              placeholder="Мне понравилось" rows="5" cols="56"></textarea>
-          </div>
-          <div class="radio__field">
-            <div class="radio__area">
-                <p class="radio__area-text">Отображать фото в отзыве?</p>
-                <div class="radio__answers">
-                  <label class="form__label">
-                    <input type="radio" name="radio" class="form__radio" >
-                    <span class="form__custom"></span>
-                    <span class="form__text">Да</span>
-                  </label>
-                  <label class="form__label">
-                    <input type="radio" name="radio" class="form__radio">
-                    <span class="form__custom"></span>
-                    <span class="form__text">Нет</span>
-                  </label>
-                </div>
+            <div class="radio__field">
+              <div class="radio__area">
+                  <p class="radio__area-text">Отображать фото в отзыве?</p>
+                  <div class="radio__answers">
+                    <label class="form__label">
+                      <input type="radio" name="radio" class="form__radio" >
+                      <span class="form__custom"></span>
+                      <span class="form__text">Да</span>
+                    </label>
+                    <label class="form__label">
+                      <input type="radio" name="radio" class="form__radio">
+                      <span class="form__custom"></span>
+                      <span class="form__text">Нет</span>
+                    </label>
+                  </div>
+              </div>
+              <div class="button-field">
+                <input class="button-form" type="submit" value="ОТПРАВИТЬ">
+              </div>
             </div>
-            <div class="button-field">
-              <input class="button-form" type="submit" value="ОТПРАВИТЬ">
-            </div>
-          </div>
+          </form>
+
         </section>
       </div>
     </div>
@@ -233,11 +236,9 @@
             </a>
           </p>
         </div>
-        <div class="logo footer__logo">
-          <a href="index.html" class="footer__link">
-            <img src="images/logo-fig.png" class="logo__img" alt="Лого">
-          </a>
-        </div>
+        <a class="logo">
+          <img src="images/logo-fig.png" class="logo__img" alt="Лого">
+        </a>
         <div class="socials">
           <h5 class="socials__text">Наши социальные сети</h5>
           <ul class="socials__list">

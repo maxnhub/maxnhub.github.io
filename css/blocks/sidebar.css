@@ -27,7 +27,7 @@
   color: black;
 }
 
-.menu__link:before, .nav__link:after  {
+.menu__link:before, .menu__link:after  {
   content: '';
   width: 19px;
   height: 19px;
@@ -46,11 +46,12 @@
 .menu__link--main:before {
   width: 17px;
   height: 15px;
-  background-position: -165px -5px;
+  background-position: -192px -5px;
 }
 
 .menu__link--main:after {
-  background-position: -192px -5px;
+  background-position: -165px -5px;
+  
 }
 
 .menu__link--feed:before {
@@ -81,7 +82,7 @@
   color: black;
 }
 
-.active.menu__link:hover:after {
+.menu__link:hover:after.active {
   opacity: 0;
 }
 

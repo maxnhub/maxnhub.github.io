@@ -7,32 +7,4 @@
   text-align: center;
 }
 
-.banner--comments {
-  margin-top: 0px;
-  background: #27273e url(../../images/item.png) round 50% 50%;
-  padding-top: 42px;
-  padding-bottom: 44px;
-}
 
-
-.banner__sale {
-  margin: 0 auto;
-  font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 18px;
-  color: white;
-  width: 620px;
-  text-align: left;
-  line-height: 29px;
-
-}
-
-.banner__sale-decription-price {
-  color: #ec1e79;
-  font-weight: bold;
-}
-
-.banner__sale-text {
-  vertical-align: middle;
-  margin-block-end: 0;
-  margin-block-start: 0;
-}
