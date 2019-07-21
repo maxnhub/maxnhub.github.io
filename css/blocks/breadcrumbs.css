@@ -1,6 +1,5 @@
 .breadcrumbs {
-  display: flex;
-  align-items: flex-end;
+
   padding-left: 61px;
 }
 
@@ -9,16 +8,16 @@
   font-family: 'GothaProLigIta', 'Trebuchet MS', sans-serif;
   color: #ec1e79;
   font-size: 14px;
+  display: flex;
 }
 
 .breadcrumbs__item {
-  display: inline-block;
 }
 
 .breadcrumbs__item:after {
-  content: "/";
-  display: inline-block;
+  content: "/ ";
   vertical-align: middle;
+  margin-right: 5px;
 }
 
 .breadcrumbs__item:last-child:after {

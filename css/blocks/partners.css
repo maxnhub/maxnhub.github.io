@@ -20,9 +20,15 @@
   cursor: pointer;
 }
 
+.partners__item {
+  width: 31%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .partners__link {
   display: flex;
-  width: 28%;
+
   filter: grayscale(1);
   margin-bottom: 35px;
   justify-content: center;
