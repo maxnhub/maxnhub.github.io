@@ -11,15 +11,16 @@
 }
 
 .feature__block {
-  width: 31%;
+  padding-right: 30px;
+  margin-top: 26px;
+  width: 100%;
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   text-align: center;
   min-height: 300px;
-  padding: 30px 27px 0px 43px;
   display: flex;
   flex-direction: column;
-  margin-right: -12px;
+  padding-left: 30px;
 }
 
 .feature__block:hover {
@@ -92,6 +93,14 @@
   font-size: 18px;
   padding-left: 10px;
   color: black;
+}
+
+.feature__aside-text {
+  padding-top: 26px;
+  font-size: 18px;
+  font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 29px;
 }
 
 /*
