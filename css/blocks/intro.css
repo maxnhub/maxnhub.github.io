@@ -6,7 +6,7 @@
 }
 
 .intro__main {
-  background: url('../../images/intro.png') no-repeat;
+  background: url('../../images/intro-pink.png') no-repeat;
   background-size: cover;
   min-height: 650px;
   height: 100vh;
@@ -16,18 +16,6 @@
   align-items: center;
   width: 100%;
 }
-
-.intro__main:after {
-  content: '';
-  background-image: linear-gradient(to left top, rgb(246, 208, 209, 0.2) 99%, transparent);
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-
 
 .intro__animation {
   padding: 200px 0;
