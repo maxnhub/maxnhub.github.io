@@ -20,10 +20,6 @@ a {
   flex-direction: column;
 }
 
-.wrapper--intro {
-  background:#27273e;
-}
-
 .wrapper__content {
   flex: 1;
 }

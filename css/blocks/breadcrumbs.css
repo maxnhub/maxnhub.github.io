@@ -1,5 +1,4 @@
 .breadcrumbs {
-
   padding-left: 61px;
 }
 
@@ -9,9 +8,6 @@
   color: #ec1e79;
   font-size: 14px;
   display: flex;
-}
-
-.breadcrumbs__item {
 }
 
 .breadcrumbs__item:after {
