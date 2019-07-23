@@ -1,12 +1,6 @@
 .content {
   display: block;
-  padding-left: 50px;
 }
-
-.content--news {
-  padding-left: 0px;
-}
-
 
 .content__list {
   padding: 0;
@@ -31,8 +25,12 @@
 }
 
 .content__img {
-  max-width: 100%;
+  min-width: 100%;
   display: block;
+}
+
+.content__img--h175 {
+  height: 175px;
 }
 
 

@@ -1,20 +1,19 @@
 .sale {
-  margin-top: 0px;
+  margin: 8px 0px 25px 0px;
   background: #27273e url(../../images/item.png) round 50% 50%;
-  padding-top: 42px;
-  padding-bottom: 44px;
-  margin-bottom: 61px;
+  padding: 5px;
+  width: 274px;
+  height: 229px;
 }
 
 
 .sale__banner {
-  margin: 0 auto;
   font-family: 'GothaProLig', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   color: white;
-  width: 620px;
-  text-align: left;
+  text-align: center;
   line-height: 29px;
+ 
 
 }
 

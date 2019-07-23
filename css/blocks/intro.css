@@ -8,12 +8,14 @@
 
 .intro__main {
   background: url('../../images/intro-pink.png') no-repeat;
-  background-size: contain;
-  min-height: 650px;
-  min-width: 1100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background-size: cover;
+    min-height: 650px;
+    height: 100vh;
+    min-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
 }
 

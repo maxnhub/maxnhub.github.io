@@ -1,13 +1,12 @@
 .feedback {
-  padding: 60px;
   font-family: 'GothaProLig', 'Trebuchet MS', Arial, sans-serif;
   font-size: 14px;
-  width: 44%;
+  width: 48%;
   margin: 0 auto;
   box-sizing: border-box;
   background-color: #f5f5f5;
-  padding: 46px 51px 46px 67px;
-  margin-bottom: 51px;
+  padding: 48px 76px 46px 98px;
+  margin: 27px 0px 51px 501px;
 }
 
 
@@ -15,12 +14,12 @@
 .feedback__title {
   margin-block-start: 0;
   margin-bottom: 26px;
-  margin-left: 0;
+ 
 }
 
 .feedback__form {
   border: none;
-  padding: 15px 0 15px 8px;
+  padding: 15px 74px 15px 8px;
   font-size: 15px;
   border-radius: 3px;
 }
@@ -41,7 +40,7 @@
 }
 
 .feedback__subtext {
-  display: inline-block;
+  display: block;
   margin-bottom: 10px;
 }
 
