@@ -24,6 +24,15 @@ a {
   flex: 1;
 }
 
+.wrapper-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../../images/intro.png') center center / cover no-repeat;
+}
+
 .container {
   width: 1175px;
   margin: 0 auto;
