@@ -84,7 +84,9 @@
 }
 */
 
-.socials__img {
+
+.socials__link:after {
+  content: '';
   background-image: url('../../images/spritesheet-one.png');
   background-repeat: no-repeat;
   position: absolute;
@@ -92,13 +94,13 @@
   left: 4px;
 } 
 
-.socials__img--vk {
+.socials__link--vk:after {
   width: 12px;
   height: 7px;
   background-position: -233px -5px;
 }
 
-.socials__img--fb {
+.socials__link--fb:after {
   width: 6px;
   height: 13px;
   background-position: -5px -5px;
@@ -106,7 +108,7 @@
   left: 7px;
 }
 
-.socials__img--ggl {
+.socials__link--ggl:after {
   width: 15px;
   height: 9px;
   background-position: -111px -5px;
@@ -114,7 +116,7 @@
   left: 3px;
 }
 
-.socials__img--tw {
+.socials__link--tw:after {
   width: 11px;
   height: 9px;
   background-position: -212px -5px;
@@ -122,7 +124,7 @@
   left: 5px;
 }
 
-.socials__img--ml {
+.socials__link--ml:after {
   width: 12px;
   height: 9px;
   background-position: -136px -5px;
