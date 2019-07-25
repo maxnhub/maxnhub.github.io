@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: twist 1.1s infinite ease-in;
+  animation: twist 1.1s ease-in;
 }
 
 .intro__logo {
@@ -62,20 +62,17 @@
   text-decoration: none;
   font-size: 10px;
   font-family: 'GothaProBol', 'Trebuchet MS', sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
   color: #ec1e79;
-  border: 3px solid currentColor;
+  border: 3px solid #ec1e79;
   text-transform: uppercase;
   padding: 10px;
 }
 
-.intro__step-to-main {
-
-}
-
-.intro__animation .intro__step-to-main:hover {
+.intro__animation .intro__link:hover {
   background-color: #ec1e79;
   color: white;
+  
 }
 
 @keyframes twist {
