@@ -79,7 +79,7 @@
   letter-spacing: 2px;
 }
 
-.feedback__button-form:hover {
+.button-form:hover {
   background-color: #ec1e79;
   cursor: pointer;
 }

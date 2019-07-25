@@ -39,6 +39,7 @@
   margin-bottom: 37px;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 
 .partners__link:hover {
