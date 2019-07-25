@@ -9,20 +9,8 @@
 
 
 
-.header__contacts {
-  font-weight: normal;
-}
 
-
-.header__tel {
-  text-decoration: none;
-  color: #ffffff;
-  font-family: GothaProBol, 'Trebuchet MS', sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  font-style: normal;
-}
-
+/*
 .header__worktime {
   display: block;
   color: #b12167;
@@ -40,4 +28,4 @@
   color: #747cac;
   cursor: pointer;
 }
-
+*/

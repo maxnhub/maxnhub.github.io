@@ -58,7 +58,11 @@
   border: 3px solid #ec1e79;
   text-transform: uppercase;
   padding: 10px;
+}
 
+.intro__animation .intro__step-to-main:hover {
+  background-color: #ec1e79;
+  color: white;
 }
 
 @keyframes twist {

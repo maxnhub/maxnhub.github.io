@@ -3,229 +3,37 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Первая страница">
+  <meta name="description" content="Интро">
   <meta name="viewport" content="width=1100, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
-  <title>Coworking</title>
+  <title>Intro</title>
 </head>
 
 <body>
   <div class="wrapper">
     <div class="wrapper__content">
-      <header class="header">
-        <div class="container container--flex">
-          <a class="logo">
-            <img src="images/logo-fig.png" class="logo__img" alt="Лого">
-          </a>
-          <nav class="menu">
-              <ul class="menu__list menu__list--horizontal">
-                <li class="menu__item">
-                  <a class="menu__link menu__link--white menu__link--main active--pink">
-                    ГЛАВНАЯ
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a href="comments.html" class="menu__link menu__link--white menu__link--feed">
-                    ОТЗЫВЫ
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a href="prices.html" class="menu__link menu__link--white menu__link--wallet">
-                  ТАРИФЫ
-                </a>
-                </li>
-              </ul>
-          </nav>
-          <address class="header__contacts">
-              <a href="tel:+88000039210" class="header__tel">8 (800) 00-392-10</a>
-              <div class="dropdown">
-                <a class="dropdown__link">График работы</a>
-                <div class="dropdown__menu">
-                  <ul class="dropdown__list">
-                    <div class="triangle"></div>
-                    <li class="dropdown__item dropdown__item--pink">пн-вс: 09:00-20:00</li>
-                    <li class="dropdown__item">обед: 14:00-14:30</li>
-                  </ul>
-                </div>
+      <div class="intro">
+        <div class="intro__main">
+          <div class="intro__animation">
+            <img src="images/logo-fig.png" class="intro__logo" alt="Лого">
+            <p class="intro__text">Воркадиум</p>
+            <a href="main.html" class="intro__link">
+              <div class="intro__step-to-main">
+                Перейти на сайт
               </div>
-          </address>
-        </div>
-
-      </header>
-      <div class="banner">
-          <img src="images/banner.png" class="banner__img" alt="Фон">
-      </div>
-      <div class="maincontent">
-        <div class="container container--flex">
-          <aside class="sidebar">
-              <ul class="feature__list">
-                <li class="feature__block">
-                    <div class="feature__aside-text">
-                      Топ-тариф
-                    </div>
-                    <h4 class="feature__header">УНИКАЛЬНОСТЬ</h4>
-                    <p class="feature__text">Создан для вашего комфортного отдыха</p>
-                    <ul class="feature__description">
-                      <li class="feature__item">
-                        <span>Кофе/чай</span>
-                      </li>
-                      <li class="feature__item">
-                        <span>Шкаф (5кг)</span>
-                      </li>
-                      <li class="feature__item">
-                        <span>Рабочее место</span>
-                      </li>
-                    </ul>
-                </li>
-              </ul>
-              <div class="socials socials--aside">
-                  <h5 class="socials__text--aside">Наши социальные сети</h5>
-                  <ul class="socials__list">
-                    <li class="socials__item">
-                      <a href="#" class="socials__link">
-                        <div class="socials__avatar--aside">
-                          <div class="socials__img socials__img--vk"></div>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="socials__item">
-                      <a href="#" class="socials__link">
-                        <div class="socials__avatar--aside">
-                          <div class="socials__img socials__img--fb"></div>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="socials__item">
-                      <a href="#" class="socials__link">
-                        <div class="socials__avatar--aside">
-                          <div class="socials__img socials__img--ggl"></div>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="socials__item">
-                      <a href="#" class="socials__link">
-                        <div class="socials__avatar--aside">
-                          <div class="socials__img socials__img--tw"></div>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="socials__item">
-                      <a href="#" class="socials__link">
-                        <div class="socials__avatar--aside">
-                          <div class="socials__img socials__img--ml"></div>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-              </div>
-          </aside>
-          <main class="main">
-            <section class="content content--news">
-              <h2 class="title news__title">Последние новости</h2>
-              <ul class="content__list">
-                <li class="content__item">
-                  <div class="content__avatar">
-                    <img src="images/blackhole.png" class="content__img content__img--h175" alt="Чёрная дыра">
-                  </div>         
-                  <div class="content__desc">
-                    <div class="date">12.10.2016</div>
-                    <h3 class="content__desc-title">Чёрная дыра скидок!</h3>
-                    <p class="content__description">
-                      Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего
-                      лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время
-                      суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.
-                    </p>
-                  </div>
-                </li>
-                <li class="content__item">
-                  <div class="content__avatar">
-                      <img src="images/pinkfire.png" class="content__img" alt="Получай призы">
-                  </div>                
-                  <div class="content__desc">
-                    <div class="date">01.02.2016</div>
-                    <h3 class="content__desc-title">Заражай друзей, получай призы!</h3>
-                    <p class="content__description">
-                      Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов -
-                      вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции,
-                      мастер-классы, встречи с инвесторами или менторами для резидентов.
-                    </p>
-                  </div>
-                </li>
-                <li class="content__item">
-                  <div class="content__avatar">
-                  <img src="images/workplace.png" class="content__img" alt="Новое рабочее место">
-                  </div>
-                  <div class="content__desc">
-                    <div class="date">22.12.2015</div>
-                    <h3 class="content__desc-title">Новое рабочее место для бизнесменов.</h3>
-                    <p class="content__description">
-                      Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в
-                      себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно пользоваться кухонным
-                      оборудованием: микроволновкой, чайником, кофе машиной, посудой.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </section>
-            <div class="pagination">
-              <div class="pagination__display">Страница 1 из 7</div>
-              <div class="pagination__controlls">
-                <ul class="pagination__pages-list">
-                  <li class="pagination__pages-item">
-                    <a class="pagination__pages-link">
-                      <div class="pagination__prev"></div>
-                    </a>
-                  </li>
-                  <li class="pagination__pages-item active__page">
-                    <a class="pagination__pages-link active__page-link">1</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">2</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">3</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">4</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">5</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">6</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">7</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">
-                      <div class="pagination__next"></div>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </main>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="container container--flex">
-        <div class="footer__author">
-          <p class="footer__author-text">Сделано с любовью и старанием на курсе "HTML + CSS" в <a
-              href="https://loftschool.com/" class="footer__author-link schoollink">LoftSchool</a>.<br>Автор работы: <a
-              href="https://github.com/maxnhub" class="footer__author-link">Никульников Максим
-            </a>
-          </p>
-        </div>
-        <a class="logo">
-          <img src="images/logo-fig.png" class="logo__img" alt="Лого">
-        </a>
-        
-      </div>
-    </footer>
   </div>
+
 
 </body>
 
 </html>
+
+
+
+
+
