@@ -49,7 +49,7 @@
   position: absolute;
   top: 2px;
   left: 0;
-  background-image: url('../../images/spritesheet-new.png');
+  background-image: url('../../images/spritesheet-one.png');
   background-repeat: no-repeat;
   transition: 0.5s;
 }
@@ -61,80 +61,80 @@
 .menu__link--main:before {
   width: 17px;
   height: 15px;
-  background-position: -122px -5px;
+  background-position: -185px -5px;
 }
 
 .menu__link--main:after {
-  background-position: -95px -5px;
+  background-position: -158px -5px;
 }
 
 .menu__link--feed:before {
   width: 20px;
   height: 18px;
-  background-position: -5px -5px;
+  background-position: -21px -5px;
 }
 
 .menu__link--feed:after {
-  background-position: -35px -5px;
+  background-position: -51px -5px;
 }
 
 .menu__link--wallet:before {
   width: 19px;
   height: 16px;
-  background-position: -149px -5px;
+  background-position: -255px -5px;
 }
 
 .menu__link--wallet:after {
-  background-position: -178px -5px;
+  background-position: -284px -5px;
 }
 
 .menu__link-wallet-black:before {
   width: 19px;
   height: 16px;
-  background-position: -178px -5px;
+  background-position: -284px -5px;
 }
 
 .menu__link-wallet-black:after {
-  background-position: -178px -5px;
+  background-position: -284px -5px;
 }
 
 .menu__link--feed-black:before {
-  background-position: -35px -5px;
+  background-position: -51px -5px;
 }
 
 .menu__link--feed-black:after {
-  background-position: -35px -5px;
+  background-position: -51px -5px;
 }
 
 
 .menu__link--white.menu__link--main:before {
   width: 17px;
   height: 15px;
-  background-position: -122px -5px;
+  background-position: -185px -5px;
 }
 
 .menu__link--white.menu__link--main:after {
-  background-position: -122px -5px;
+  background-position: -185px -5px;
 }
 
 .menu__link--white.menu__link--feed:before {
   width: 20px;
   height: 18px;
-  background-position: -65px -5px;
+  background-position: -81px -5px;
 }
 
 .menu__link--white.menu__link--feed:after {
-  background-position: -5px -5px;
+  background-position: -21px -5px;
 }
 
 .menu__link--white.menu__link--wallet:before {
   width: 19px;
   height: 16px;
-  background-position: -207px -5px;
+  background-position: -313px -5px;
 }
 
 .menu__link--white.menu__link--wallet:after {
-  background-position: -149px -5px;
+  background-position: -255px -5px;
 }
 
 .menu__link:hover:after {
@@ -270,59 +270,3 @@
 
 
 
-/*  Новый спрайт !!!!!!!!!!!!!!!!
-
-. {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.-feed_icon {
-    width: 20px;
-    height: 18px;
-    background-position: -5px -5px;
-}
-
-.-feed_icon_black {
-    width: 20px;
-    height: 18px;
-    background-position: -35px -5px;
-}
-
-.-feed_icon_white {
-    width: 20px;
-    height: 18px;
-    background-position: -65px -5px;
-}
-
-.-main_icon {
-    width: 17px;
-    height: 15px;
-    background-position: -95px -5px;
-}
-
-.-main_icon_pink {
-    width: 17px;
-    height: 15px;
-    background-position: -122px -5px;
-}
-
-.-wallet_icon {
-    width: 19px;
-    height: 16px;
-    background-position: -149px -5px;
-}
-
-.-wallet_icon_black {
-    width: 19px;
-    height: 16px;
-    background-position: -178px -5px;
-}
-
-.-wallet_icon_white {
-    width: 19px;
-    height: 16px;
-    background-position: -207px -5px;
-}
- */

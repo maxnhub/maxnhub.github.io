@@ -84,7 +84,7 @@
 */
 
 .socials__img {
-  background-image: url('../../images/spritesheet.png');
+  background-image: url('../../images/spritesheet-one.png');
   background-repeat: no-repeat;
   position: absolute;
   top: 7px;
@@ -94,7 +94,7 @@
 .socials__img--vk {
   width: 12px;
   height: 7px;
-  background-position: -320px -5px;
+  background-position: -233px -5px;
 }
 
 .socials__img--fb {
@@ -108,7 +108,7 @@
 .socials__img--ggl {
   width: 15px;
   height: 9px;
-  background-position: -118px -5px;
+  background-position: -111px -5px;
   top: 6px;
   left: 3px;
 }
@@ -116,7 +116,7 @@
 .socials__img--tw {
   width: 11px;
   height: 9px;
-  background-position: -299px -5px;
+  background-position: -212px -5px;
   top: 6px;
   left: 5px;
 }
@@ -124,7 +124,7 @@
 .socials__img--ml {
   width: 12px;
   height: 9px;
-  background-position: -143px -5px;
+  background-position: -136px -5px;
   top: 6px;
   left: 4px;
 }
@@ -132,3 +132,93 @@
 .socials__link:hover {
   background-color: #ec1e79;
 }
+
+/*  Новый спрайт !!!!!!!!!!!!!!!!
+
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -5px -5px;
+}
+
+.-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -21px -5px;
+}
+
+.-feed_icon_black {
+    width: 20px;
+    height: 18px;
+    background-position: -51px -5px;
+}
+
+.-feed_icon_white {
+    width: 20px;
+    height: 18px;
+    background-position: -81px -5px;
+}
+
+.-google {
+    width: 15px;
+    height: 9px;
+    background-position: -111px -5px;
+}
+
+.-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -136px -5px;
+}
+
+.-main_icon {
+    width: 17px;
+    height: 15px;
+    background-position: -158px -5px;
+}
+
+.-main_icon_pink {
+    width: 17px;
+    height: 15px;
+    background-position: -185px -5px;
+}
+
+.-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -212px -5px;
+}
+
+.-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -233px -5px;
+}
+
+.-wallet_icon {
+    width: 19px;
+    height: 16px;
+    background-position: -255px -5px;
+}
+
+.-wallet_icon_black {
+    width: 19px;
+    height: 16px;
+    background-position: -284px -5px;
+}
+
+.-wallet_icon_white {
+    width: 19px;
+    height: 16px;
+    background-position: -313px -5px;
+}
+
+
+
+ */
