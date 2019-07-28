@@ -46,7 +46,8 @@
   position: relative;
 }
 
-.triangle {
+.contacts__list:after {
+  content: '';
   left: 84%;
   border: 15px solid transparent;
   width: 0px;

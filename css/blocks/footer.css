@@ -26,6 +26,15 @@
   text-decoration: none;
   font-weight: bold;
   color: white;
+  transition: 0.4s;
+}
+
+.footer__author-link:hover {
+  color: #ec1e79;
+}
+
+.footer__author-link.schoollink:hover {
+  border-bottom: 1px solid #ec1e79;
 }
 
 .schoollink {
