@@ -5,13 +5,13 @@
 ```sh
  Студент: Никульников Максим
  Наставник: Сысоева Анна
- Ссылка: https://maxnhub.github.io/
+ Ссылка: https://maxnhub.github.io/maxnikulnikov-coworking
 ```
 
 #### How to install and build my app
 
 ```sh
-1. git clone git@github.com:maxnhub/maxnikulnikov-portfolio.git
+1. git clone git@github.com:maxnhub/maxnikulnikov-coworking.git
 2. cd coworking
 3. npm i
 4. npm run build
