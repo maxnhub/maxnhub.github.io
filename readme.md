@@ -12,7 +12,7 @@
 
 ```sh
 1. git clone git@github.com:maxnhub/maxnikulnikov-coworking.git
-2. cd coworking
+2. cd maxnikulnikov-coworking
 3. npm i
 4. npm run build
 ```
